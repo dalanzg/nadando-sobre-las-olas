@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-8">
+    {% for post in paginator.posts %}
+    <div class="card">
+      <div class="card-header"><h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4></div>
+      <div class="card-block">
+        <div class="row">
+          <div class="col-md-4">
+            {% if post.author %}<small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</small>{% endif %}
+          </div>
+          <div class="col-md-4">
+            {% if post.date %}
+              <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
+                {{  post.date | date: '%-d' }} de
+                {% assign m = post.date | date: '%-m' %}
+                {% case m %}
+                  {% when '1' %}enero
+                  {% when '2' %}febrero
+                  {% when '3' %}marzo
+                  {% when '4' %}abril
+                  {% when '5' %}mayo
+                  {% when '6' %}junio
+                  {% when '7' %}julio
+                  {% when '8' %}agosto
+                  {% when '9' %}septiembre
+                  {% when '10' %}octubre
+                  {% when '11' %}noviembre
+                  {% when '12' %}diciembre
+                {% endcase %}
+                de {{  post.date | date: '%Y' }}
+              </small>
+            {% endif %}
+          </div>
+          <div class="col-md-4">
+            {% if post.categories %}<p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.categories | join: ', ' }}</small></p>{% endif %}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-post" src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.categories | first }}">
+          </div>
+          <div class="col-md-8">
+            <p class="card-text">{{ post.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="card-block">
+      <nav class="blog-pagination text-xs-center">
+        {% if paginator.previous_page %}
+        <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&laquo;</a>
+        {% else %}
+        <a class="btn btn-outline-secondary disabled" href="#">&laquo;</a>
+        {% endif %}
+        <a class="btn btn-outline-secondary disabled" href="#">Página: {{ paginator.page }} de {{ paginator.total_pages }}</a>
+        {% if paginator.next_page %}
+        <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&raquo;</a>
+        {% else %}
+        <a class="btn btn-outline-secondary disabled" href="#">&raquo;</a>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-header"><strong>Twitter</strong></div>
+      <div class="card-block">
+        <a class="twitter-timeline" href="https://twitter.com/dalanzg" data-widget-id="463016837706289152">Tweets por @dalanzg</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><strong>Strava</strong></div>
+      <div class="card-block">
+        <div class="strava">
+          <div class="embed-responsive embed-responsive-strava">
+            <iframe allowtransparency='true' scrolling='no' src='https://www.strava.com/clubs/nadandosobrelasolas/latest-rides/ba4bcd37075ad684092c50f15ebcd469566e2d95?show_rides=true'></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

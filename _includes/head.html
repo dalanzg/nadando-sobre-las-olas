@@ -1,0 +1,89 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  {% if page.title and page.grouptype != "tag" %}
+  <title>{{ page.title }} &#126; {{ site.title }}</title>
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{ page.title }}" name="twitter:title">
+  {% elsif page.grouptype == "tag" %}
+  <title>Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}</title>
+  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" property="og:title">
+  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="twitter:title">
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta content="{{ site.title }}" property="og:title">
+  <meta content="{{ site.title }}" name="twitter:title">
+  {% endif %}
+  <meta content="{{ site.title }}" property="og:site_name">
+  {% if page.description and page.grouptype != "tag" %}
+  <meta content="{{ page.description }}" name="description">
+  <meta content="{{ page.description }}" property="og:description">
+  <meta content="{{ page.description }}" name="twitter:description">
+  {% elsif page.grouptype == "tag" %}
+  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="description">
+  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" property="og:description">
+  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="twitter:description">
+  {% else %}
+  <meta content="{{ site.description }}" name="description">
+  <meta content="{{ site.description }}" property="og:description">
+  <meta content="{{ site.description }}" name="twitter:description">
+  {% endif %}
+
+  <meta content="{{ site.author.name }}" name="author">
+  <meta content="@{{ site.author.twitter }}" name="twitter:site">
+  <meta content="@{{ site.author.twitter }}" name="twitter:creator">    
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "/img/favicons/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
+  <link rel="manifest" href="{{ "/img/favicons/manifest.json" | prepend: site.baseurl }}">
+  <link rel="mask-icon" href="{{ "/img/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  <meta name="application-name" content="{{ site.title }}">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+
+  {% if page.title %}
+  <meta content="article" property="og:type">
+  {% else %}
+  <meta content="website" property="og:type">
+  {% endif %}
+  <meta content="summary" name="twitter:card">
+  {% if page.url %}
+  <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" property="og:url">
+  <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" name="twitter:url">
+  {% endif %}
+  {% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url | prepend: site.baseurl }}/about/" property="article:author">
+  {% endif %}
+  {% if page.thumbnail %}
+  <meta property="og:image" content="{{ site.url | prepend: site.baseurl }}/{{ page.thumbnail }}">
+  <meta name="twitter:image:src" content="{{ site.url | prepend: site.baseurl }}/{{ page.thumbnail }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.url | prepend: site.baseurl }}/files/favicon/apple-touch-icon-152x152.png">
+  <meta name="twitter:image:src" content="{{ site.url | prepend: site.baseurl }}/files/favicon/apple-touch-icon-152x152.png">
+  {% endif %}
+  {% if page.tags %}
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor %}
+  {% endif %}
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="{{ "/sitemap.xml" | prepend: site.baseurl }}" rel="sitemap" title="Sitemap" type="application/xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>

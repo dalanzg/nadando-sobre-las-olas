@@ -1,0 +1,9 @@
+- name: Twitter
+  url: https://twitter.com/dalanzg/
+  font_awesome: fa-twitter
+- name: Instagram
+  url: https://www.instagram.com/dalanz/
+  font_awesome: fa-instagram
+- name: Flickr
+  url: https://www.flickr.com/photos/dalanz/
+  font_awesome: fa-flickr

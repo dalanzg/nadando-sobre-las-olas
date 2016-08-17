@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Nadando sobre las olas"
+author: 
+  name: Daniel Lanza
+  twitter: dalanzg
+  github: dalanzg
+description: "Crónicas deportivas de Daniel Lanza, consultor OpenText de día y triatleta de noche"
+baseurl: "/nadando-sobre-las-olas" # the subpath of your site, e.g. /blog
+url: "https://dalanzg.github.io" # the base hostname & protocol for your site
+
+analytics:
+  google: UA-65400010-2
+
+comments:
+  disqus: nadando-sobre-las-olas
+
+# Build settings
+paginate: 10 # the number of post per page
+highlighter: rouge
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed # Possible values -> nested / expanded / compact / compressed
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Handling Reading
+exclude: 
+  - "README.md"
+  - "LICENSE"

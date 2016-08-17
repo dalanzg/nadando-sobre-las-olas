@@ -1,0 +1,40 @@
+.navbar {
+  margin-bottom: 1.25rem;
+}
+
+.img-post {
+  @extend .img-rounded;
+  @extend .img-fluid;
+  @extend .m-x-auto;
+  @extend .d-block;
+}
+
+.table-bordered-striped {
+  @extend .table-bordered;
+  @extend .table-striped;
+}
+
+.garmin {
+  @extend .m-x-auto;
+  @extend .d-block;
+  max-width: 465px;
+}
+
+.embed-responsive-garmin-mono {
+  padding-bottom: 107.53%;
+}
+
+.embed-responsive-garmin-triathlon {
+  padding-bottom: 107.53%;
+  /* padding-bottom: 128.6022% !important; */
+}
+
+.strava {
+  @extend .m-x-auto;
+  @extend .d-block;
+  max-width: 300px;
+}
+
+.embed-responsive-strava {
+  padding-bottom: 151.33%;
+}
