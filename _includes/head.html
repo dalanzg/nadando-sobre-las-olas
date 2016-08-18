@@ -3,28 +3,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  {% if page.title and page.grouptype != "tag" %}
+  {% if page.title and page.grouptype != "categories" %}
   <title>{{ page.title }} &#126; {{ site.title }}</title>
   <meta content="{{ page.title }}" property="og:title">
   <meta content="{{ page.title }}" name="twitter:title">
-  {% elsif page.grouptype == "tag" %}
-  <title>Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}</title>
-  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" property="og:title">
-  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="twitter:title">
+  {% elsif page.grouptype == "categories" %}
+  <title>Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}</title>
+  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" property="og:title">
+  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="twitter:title">
   {% else %}
   <title>{{ site.title }}</title>
   <meta content="{{ site.title }}" property="og:title">
   <meta content="{{ site.title }}" name="twitter:title">
   {% endif %}
   <meta content="{{ site.title }}" property="og:site_name">
-  {% if page.description and page.grouptype != "tag" %}
+  {% if page.description and page.grouptype != "categories" %}
   <meta content="{{ page.description }}" name="description">
   <meta content="{{ page.description }}" property="og:description">
   <meta content="{{ page.description }}" name="twitter:description">
-  {% elsif page.grouptype == "tag" %}
-  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="description">
-  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" property="og:description">
-  <meta content="Posts Tagged “{{ page.tag }}” &#126; {{ site.title }}" name="twitter:description">
+  {% elsif page.grouptype == "categories" %}
+  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="description">
+  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" property="og:description">
+  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="twitter:description">
   {% else %}
   <meta content="{{ site.description }}" name="description">
   <meta content="{{ site.description }}" property="og:description">
@@ -57,18 +57,17 @@
   {% endif %}
   {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url | prepend: site.baseurl }}/about/" property="article:author">
   {% endif %}
   {% if page.thumbnail %}
-  <meta property="og:image" content="{{ site.url | prepend: site.baseurl }}/{{ page.thumbnail }}">
-  <meta name="twitter:image:src" content="{{ site.url | prepend: site.baseurl }}/{{ page.thumbnail }}">
+  <meta property="og:image" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image:src" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}">
   {% else %}
-  <meta property="og:image" content="{{ site.url | prepend: site.baseurl }}/files/favicon/apple-touch-icon-152x152.png">
-  <meta name="twitter:image:src" content="{{ site.url | prepend: site.baseurl }}/files/favicon/apple-touch-icon-152x152.png">
+  <meta property="og:image" content="{{ "/files/favicon/apple-touch-icon-152x152.png" | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image:src" content="{{ "/files/favicon/apple-touch-icon-152x152.png" | prepend: site.baseurl | prepend: site.url }}">
   {% endif %}
-  {% if page.tags %}
-  {% for tag in page.tags %}
-  <meta property="article:tag" content="{{ tag }}">
+  {% if page.categories %}
+  {% for category in page.categories %}
+  <meta property="article:tag" content="{{ category }}">
   {% endfor %}
   {% endif %}
 
