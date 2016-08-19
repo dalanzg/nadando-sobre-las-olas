@@ -53,13 +53,13 @@ layout: default
     <div class="card-block">
       <nav class="blog-pagination text-xs-center">
         {% if paginator.previous_page %}
-        <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&laquo;</a>
+        <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" rel="prev">&laquo;</a>
         {% else %}
         <a class="btn btn-outline-secondary disabled" href="#">&laquo;</a>
         {% endif %}
         <a class="btn btn-outline-secondary disabled" href="#">Página: {{ paginator.page }} de {{ paginator.total_pages }}</a>
         {% if paginator.next_page %}
-        <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&raquo;</a>
+        <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="next">&raquo;</a>
         {% else %}
         <a class="btn btn-outline-secondary disabled" href="#">&raquo;</a>
         {% endif %}
