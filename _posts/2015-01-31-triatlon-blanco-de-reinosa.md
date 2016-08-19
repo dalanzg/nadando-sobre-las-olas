@@ -4,7 +4,7 @@ title: Triatlón Blanco de Reinosa 2015
 date: 2015-01-31 19:12:00
 author: Daniel Lanza García
 description: Lamentablemente debido al temporal, se suspendió el sector de esquí de fondo. La prueba fue aplazada a la tarde y convertida en modalidad duatlón, por lo que me animó a no acabar participando.
-categories:
+tags:
   - Triatlón Blanco
 thumbnail: /img/2015-01-31-triatlon-blanco-de-reinosa/triatlon-blanco-reinosa-boxes.jpg
 comments: true

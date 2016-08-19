@@ -4,7 +4,7 @@ title: Triatlón Valle de Buelna 2015
 date: 2015-06-29 20:46:00
 author: Daniel Lanza García
 description: Y llegó finalmente una de las fechas más esperadas del año. Era una carrera muy especial, ya que tenía ganas de volver a terminar por segunda vez esta prueba. ¡Qué buenos recuerdos aquel año en el 2009 cuando finalicé como pude y quedé campeón regional sub-23!
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2015-06-29-triatlon-valle-de-buelna/triatlon-valle-de-buelna-t1-1.jpg
 comments: true

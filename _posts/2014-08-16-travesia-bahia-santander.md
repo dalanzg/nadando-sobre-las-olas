@@ -4,7 +4,7 @@ title: Travesía Bahía Santander 2014
 date: 2014-08-16 12:07:00
 author: Daniel Lanza García
 description: Durante mis vacaciones en la tierruca, se me presentó la oportunidad de volver a hacer una travesía en aguas abiertas, y no dudé en ningún instante en nadar en mi querida ciudad natal.
-categories:
+tags:
   - Natación
   - Travesía
 thumbnail: /img/2014-08-16-travesia-bahia-santander/travesia-santander-5.jpg

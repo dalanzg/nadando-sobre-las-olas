@@ -4,7 +4,7 @@ title: Triatlón Comillas 2014
 date: 2014-09-22 00:29:00
 author: Daniel Lanza García
 description: Después de casi dos meses sin competir en un triatlón, acudí al campeonato regional de Cantabria celebrado en Comillas. De esta manera, ponía el punto y final a la temporada de competiciones en Cantabria.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2014-09-22-triatlon-comillas/triatlon-comillas-10.jpg
 comments: true

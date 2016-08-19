@@ -4,7 +4,7 @@ title: Triatlón Pálmaces 2014
 date: 2014-07-29 21:57:00
 author: Daniel Lanza García
 description: Primera partición en uno de los triatlones más famosos de este país. Ni la distancia ni la altas temperaturas impidieron que terminara en una buena posición.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2014-07-29-triatlon-palmaces/triatlon-palmaces-pie-1.jpg
 comments: true

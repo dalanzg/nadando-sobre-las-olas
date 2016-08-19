@@ -4,7 +4,7 @@ title: Triatlón Suances 2016
 date: 2016-06-17 20:07:00
 author: Daniel Lanza García
 description: Volviendo a Suances después de varios años y me lesiono subiendo las escaleras. Pude finalizar la bici.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2016-06-17-triatlon-suances/triatlon-suances-bici-3.jpg
 comments: true

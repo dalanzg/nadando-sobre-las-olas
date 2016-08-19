@@ -4,7 +4,7 @@ title: Media Maratón Fuencarral - El Pardo 2014
 date: 2014-02-13 20:01:00
 author: Daniel Lanza García
 description: Primer mes de estancia en Madrid y no dudé en inscribirme a una media maratón. La verdad que para empezar no fue nada fácil.
-categories:
+tags:
   - Atletismo
 thumbnail: /img/2014-02-13-media-maraton-fuencarral-el-pardo/media-maraton-fuencarral-el-pardo-1.jpg
 comments: true

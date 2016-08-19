@@ -4,7 +4,7 @@ title: Triatlón Juarros de Voltoya 2014
 date: 2014-06-01 16:16:00
 author: Daniel Lanza García
 description: Llegó la hora de un triatlón olímpico sin drafting para comprobar mi estado de forma antes del medio ironman de Valle de Buelna.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2014-06-01-triatlon-juarros-de-voltoya/triatlon-juarros-de-voltoya-bici-2.jpg
 comments: true

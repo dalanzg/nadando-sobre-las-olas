@@ -4,7 +4,7 @@ title: Trail San Lorenzo de El Escorial 2015
 date: 2015-05-10 13:51:00
 author: Daniel Lanza García
 description: Nunca había estado por El Escorial, y nada mejor que hacerlo con una prueba deportiva corriendo por la montaña para disfrutar del entorno.
-categories:
+tags:
   - Atletismo
   - Trail
 thumbnail: /img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-carrera.jpg

@@ -4,7 +4,7 @@ title: Trail Costa Quebrada 2016
 date: 2016-04-07 20:17:00
 author: Daniel Lanza García
 description: Estaba esperando con muchas ganas esta carrera. Principalmente porque iba a correr en Liencres, el pueblo donde viví hasta los 21 años.
-categories:
+tags:
   - Atletismo
   - Trail
 thumbnail: /img/2016-04-07-trail-costa-quebrada/trail-costa-quebrada-4.jpg

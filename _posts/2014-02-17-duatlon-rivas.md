@@ -4,7 +4,7 @@ title: Duatlón Rivas 2014
 date: 2014-02-17 23:34:00
 author: Daniel Lanza García
 description: Volví a correr un duatlón después de casi 2 años, y esta vez estrené los colores de Aguaverde.
-categories:
+tags:
   - Duatlón
 thumbnail: /img/2014-02-17-duatlon-rivas/duatlon-rivas-aguaverde.jpg
 comments: true

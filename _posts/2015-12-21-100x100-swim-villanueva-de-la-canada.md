@@ -4,7 +4,7 @@ title: 100x100 Swim Villanueva de la Cañada 2015
 date: 2015-12-21 19:33:00
 author: Daniel Lanza García
 description: Y ahí estuvo Aguaverde otra vez cumpliendo en el 100x100m Swim de Villanueva de la Cañada. ¡Cómo se sufre y qué bien se lo pasa uno en estas pruebas!
-categories:
+tags:
   - Natación
   - Aguaverde
 thumbnail: /img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-2.jpg

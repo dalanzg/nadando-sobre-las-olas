@@ -4,7 +4,7 @@ title: Duatlón Torrelavega 2015
 date: 2015-03-23 22:32:00
 author: Daniel Lanza García
 description: Abandono en el primer duatlón de la temporada en Torrelavega debido a problemas mecánicos y posteriormente un pinchazo en la rueda trasera.
-categories:
+tags:
   - Duatlón
 thumbnail: /img/2015-03-23-duatlon-torrelavega/duatlon-torrelavega-pie-1.jpg
 comments: true

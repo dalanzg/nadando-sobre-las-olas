@@ -4,7 +4,7 @@ title: Subida Pedestre Peña Cabarga 2013
 date: 2013-10-23 11:35:00
 author: Daniel Lanza García
 description: Primera crónica del blog, y nada menos que con la Subida Pedestre de Peña Cabarga.
-categories:
+tags:
   - Atletismo
 thumbnail: /img/2013-10-23-subida-pedestre-pena-cabarga/subida-pedestre-penacabarga-dorsal.jpg
 comments: true

@@ -6,7 +6,7 @@ title: Posts por categorías
 <div class="card">
   <div class="card-header"><h1>Categorías</h1></div>
   <div class="card-block">
-    {% assign tags = site.categories | sort %}
+    {% assign tags = site.tags | sort %}
     {% assign sorted_posts = site.posts | sort: 'title' %}
 
     <div> 
@@ -32,7 +32,7 @@ title: Posts por categorías
 
     <ul>
       {% for post in sorted_posts %}
-      {% if post.categories contains tag[0] %}
+      {% if post.tags contains tag[0] %}
       <li>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="text-muted">{% if post.date %} • {{ post.date | date: "%d/%m/%Y" }}{% endif %}</span>

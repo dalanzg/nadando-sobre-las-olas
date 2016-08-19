@@ -49,9 +49,9 @@
   <meta name="twitter:image" content="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:image:alt" content="{{ site.title }}">
   {% endif %}
-  {% if page.categories %}
-  {% for category in page.categories %}
-  <meta property="article:tag" content="{{ category }}">
+  {% if page.tags %}
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
   {% endfor %}
   {% endif %}
 

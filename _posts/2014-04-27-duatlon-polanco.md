@@ -4,7 +4,7 @@ title: Duatlón Polanco 2014
 date: 2014-04-27 22:45:00
 author: Daniel Lanza García
 description: Primer duatlón en Cantabria después de mi vuelta. Nada mejor que volver a casa y competir con viejos compañeros.
-categories:
+tags:
   - Duatlón
 thumbnail: /img/2014-04-27-duatlon-polanco/duatlon-polanco-dreamteam.jpg
 comments: true

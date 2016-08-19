@@ -4,7 +4,7 @@ title: Travesía Valle de Iruelas 2016
 date: 2016-06-24 19:56:00
 author: Daniel Lanza García
 description: ¡Reto conseguido! Travesía de 5.500m en el embalse del Burguillo y teniendo el gemelo izquierdo lesionado.
-categories:
+tags:
   - Natación
   - Travesía
 thumbnail: /img/2016-06-24-travesia-valle-de-iruelas/travesia-valle-de-iruelas-salida.jpg

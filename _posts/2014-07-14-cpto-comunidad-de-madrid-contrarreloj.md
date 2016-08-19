@@ -4,7 +4,7 @@ title: Cpto Comunidad de Madrid Contrarreloj por equipos 2014
 date: 2014-07-14 22:51:00
 author: Daniel Lanza García
 description: Primera competición por equipos con Aguaverde en la Casa de Campo finalizando en 5º posición.
-categories:
+tags:
   - Triatlón
   - Aguaverde
 thumbnail: /img/2014-07-14-cpto-comunidad-de-madrid-contrarreloj/cpt-madrid-contrarreloj-aguaverde.jpg

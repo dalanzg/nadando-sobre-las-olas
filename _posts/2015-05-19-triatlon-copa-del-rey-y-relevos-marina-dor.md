@@ -4,7 +4,7 @@ title: Triatlón Copa del Rey y Campeonato España por relevos Marina D'Or 2015
 date: 2015-05-19 00:19:00
 author: Daniel Lanza García
 description: Fin de semana con Aguaverde en Marina D'Or para disputar La Copa del Rey y el Campeonato de España por relevos. ¡Cómo molan estas competiciones!
-categories:
+tags:
   - Triatlón
   - Aguaverde
 thumbnail: /img/2015-05-19-triatlon-copa-del-rey-y-relevos-marina-dor/triatlon-copa-del-rey-aguaverde-10-aniversario-1.jpg

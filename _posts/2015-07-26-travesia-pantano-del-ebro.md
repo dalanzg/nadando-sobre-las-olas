@@ -4,7 +4,7 @@ title: Travesía Pantano del Ebro 2015
 date: 2015-07-26 22:55:00
 author: Daniel Lanza García
 description: Periodo de vacaciones en la tierruca y travesía en el pantano del Ebro.
-categories:
+tags:
   - Natación
   - Travesía
 thumbnail: /img/2015-07-26-travesia-pantano-del-ebro/travesia-pantano-ebro-1.jpg

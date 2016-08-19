@@ -4,7 +4,7 @@ title: Triatlón Bola del Mundo 2015
 date: 2015-07-07 15:59:00
 author: Daniel Lanza García
 description: Triatlon por la montaña. Ascenso al Navacerrada y Bola del Mundo, y a continuación carrera por la cuerda larga. Así ponemos punto final a la temporada.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2015-07-07-triatlon-bola-del-mundo/triatlon-bola-del-mundo-aguaverde.jpg
 comments: true

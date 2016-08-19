@@ -4,7 +4,7 @@ title: Triatlón MD Peñíscola 2015
 date: 2015-04-28 20:52:00
 author: Daniel Lanza García
 description: ¡Empezó la temporada de triatlón! La marea Aguaverde se desplazó hasta el Mediterráneo para participar en el Triatlón MD de Peñíscola.
-categories:
+tags:
   - Triatlón
 thumbnail: /img/2015-04-28-triatlon-peniscola/triatlon-md-peniscola-bici.jpg
 comments: true
