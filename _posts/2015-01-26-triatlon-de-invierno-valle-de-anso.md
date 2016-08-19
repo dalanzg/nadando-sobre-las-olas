@@ -6,7 +6,7 @@ author: Daniel Lanza García
 description: Debut oficial en un triatlón de invierno. Nos desplazamos hasta el pueblo de Ansó junto con Bocina y Fernando.
 categories:
   - Triatlón Blanco
-thumbnail: /img/2015-01-26-triatlon-de-invierno-valle-de-anso/triatlon-valle-de-anso-meta.jpg
+thumbnail: /img/2015-01-26-triatlon-de-invierno-valle-de-anso/triatlon-valle-de-anso-esqui.jpg
 comments: true
 ---
 

@@ -7,7 +7,7 @@ description: De vuelta al campeonato de Madrid de equipos vistiendo los colores 
 categories:
   - Triatlón
   - Aguaverde
-thumbnail: /img/2015-09-21-cpto-comunidad-de-madrid-contrarreloj/campeonato-madrid-contrarreloj-aguaverde-final.jpg
+thumbnail: /img/2015-09-21-cpto-comunidad-de-madrid-contrarreloj/campeonato-madrid-contrarreloj-bici.jpg
 comments: true
 ---
 

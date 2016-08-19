@@ -1,3 +1,6 @@
+- name: Facebook
+  url: https://facebook.com/dalanzg/
+  font_awesome: fa-facebook
 - name: Twitter
   url: https://twitter.com/dalanzg/
   font_awesome: fa-twitter

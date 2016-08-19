@@ -3,28 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  {% if page.title and page.grouptype != "categories" %}
+  {% if page.title %}
   <title>{{ page.title }} &#126; {{ site.title }}</title>
   <meta content="{{ page.title }}" property="og:title">
   <meta content="{{ page.title }}" name="twitter:title">
-  {% elsif page.grouptype == "categories" %}
-  <title>Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}</title>
-  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" property="og:title">
-  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="twitter:title">
   {% else %}
   <title>{{ site.title }}</title>
   <meta content="{{ site.title }}" property="og:title">
   <meta content="{{ site.title }}" name="twitter:title">
   {% endif %}
-  <meta content="{{ site.title }}" property="og:site_name">
-  {% if page.description and page.grouptype != "categories" %}
+  <meta content="@{{ site.author.twitter }}" property="og:site_name">
+  {% if page.description %}
   <meta content="{{ page.description }}" name="description">
   <meta content="{{ page.description }}" property="og:description">
   <meta content="{{ page.description }}" name="twitter:description">
-  {% elsif page.grouptype == "categories" %}
-  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="description">
-  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" property="og:description">
-  <meta content="Posts Tagged “{{ page.categories }}” &#126; {{ site.title }}" name="twitter:description">
   {% else %}
   <meta content="{{ site.description }}" name="description">
   <meta content="{{ site.description }}" property="og:description">
@@ -50,7 +42,7 @@
   {% else %}
   <meta content="website" property="og:type">
   {% endif %}
-  <meta content="summary" name="twitter:card">
+  <meta content="summary_large_image" name="twitter:card">
   {% if page.url %}
   <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" property="og:url">
   <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" name="twitter:url">
@@ -73,16 +65,10 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link href="{{ "/sitemap.xml" | prepend: site.baseurl }}" rel="sitemap" title="Sitemap" type="application/xml">
+  <link rel=”alternate” hreflang=”es” href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl }}" title="Sitemap" type="application/xml">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
 </head>
