@@ -82,4 +82,4 @@ Ya toca un merecido descanso, ya que con Buelna y La Bola ya he tenido suficient
 
 Un saludo.
 
-P.D: Agradecimientos a Bea y Conchip por las fotografías.
+Agradecimientos a Bea y Conchip por las fotografías.

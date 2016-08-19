@@ -120,4 +120,4 @@ Ahora, mis próximos objetivos en el mes de agosto será alguna travesía en Can
 
 Un saludo y a seguir entrenando!!
 
-P.D: Agradecimientos [TriatlonChannel](http://www.triatlonchannel.com/), [Velociraptormp](https://www.facebook.com/Velociraptormp?fref=ts), Javier Gil, y [Carlos Triatlón](https://www.facebook.com/carlos.triatlon?fref=photo) por las fotografías y el vídeo.
+Agradecimientos [TriatlonChannel](http://www.triatlonchannel.com/), [Velociraptormp](https://www.facebook.com/Velociraptormp?fref=ts), Javier Gil, y [Carlos Triatlón](https://www.facebook.com/carlos.triatlon?fref=photo) por las fotografías y el vídeo.

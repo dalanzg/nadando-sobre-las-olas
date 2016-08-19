@@ -22,7 +22,7 @@ Todo el mundo conoce cómo es el perfil de Peña Cabarga: un puerto de 5,9 km co
 
 Llegó el momento de la prueba. El día amaneció con un viento fuerte Sur sin posibilidades de lluvia. Quizás las condiciones que más odio para salir a correr. Prefiero correr bajo la lluvia en vez de con un fuerte viento.
 
-Más de 300 atletas tomaron la linea de salida. El pistoletazo de salida lo dio Félix Martinez, ganador de 6 veces la subida a Peña Cabarga y conocido por sus éxitos nacionales e internacionales en el mundo del duatlón y el triatlón.
+Más de 300 atletas tomaron la linea de salida. El pistoletazo de salida lo dio Félix Martínez, ganador de 6 veces la subida a Peña Cabarga y conocido por sus éxitos nacionales e internacionales en el mundo del duatlón y el triatlón.
 
 {% include lightbox.html src="/img/2013-10-23-subida-pedestre-pena-cabarga/subida-pedestre-penacabarga-salida.jpg" title="Félix apunto de dar el pistoletazo de salida" width="500" %}
 

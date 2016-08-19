@@ -121,4 +121,4 @@ Fuera de lo deportivo, a nivel personal fue un fin de semana estupendo con toda 
 
 BE AV
 
-P.D: Agradecimientos a Ana por las fotografías. A parte de competir estuvo pendiente de sacar un reportaje fotográfico para el recuerdo del equipo. Ole!
+Agradecimientos a Ana por las fotografías. A parte de competir estuvo pendiente de sacar un reportaje fotográfico para el recuerdo del equipo. Ole!

@@ -55,7 +55,7 @@ Salí del pueblo de Mortera, y comenzaba el ascenso de Tolio. Un ascenso por un 
 
 Llegamos como pudimos a Tolio, y como se dice, todo lo que sube tiene que bajar. Pues eso, tocaba bajar y por menudo sitio. Aquí sí que iba con mucho cuidado. Era una bajada peligrosa, y no había que jugársela.
 
-Terminamos la bajada donde llevagaba hasta la carretera nacional, pero no, no había terminado. Inmediatamente había que volver a subir por el lado norte de Tolio ¡Qué sufrimiento! Ahí prácticamente subía arrastrándome. Una vez coronado, ya estaba todo hecho. Descenso fácil y cómodo hasta la carretera nacional y finalizar en meta en Liencres.
+Terminamos la bajada donde llegaba hasta la carretera nacional, pero no, no había terminado. Inmediatamente había que volver a subir por el lado norte de Tolio ¡Qué sufrimiento! Ahí prácticamente subía arrastrándome. Una vez coronado, ya estaba todo hecho. Descenso fácil y cómodo hasta la carretera nacional y finalizar en meta en Liencres.
 
 {% include lightbox.html src="/img/2016-04-07-trail-costa-quebrada/trail-costa-quebrada-8.jpg" title="Meta Trail Costa Quebrada" width="500" %}
 

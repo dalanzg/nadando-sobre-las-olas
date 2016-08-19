@@ -29,7 +29,7 @@ Giramos todos en la última boya y dimos el apretón final. Esta vez aceleré pa
 
 Cambio rápido y sin complicaciones en la T1. Solo vi a Manu que se confundió de lado en el boxes y tuvo que retroceder. ¡Y eso que lo avisamos!
 
-En este sector había que mimar a Nico. Nuestro objetivo era ayudarley que estuviese disponible después de la T2, ya que tanto César como yo no podíamos correr a los ritmos del resto. 
+En este sector había que mimar a Nico. Nuestro objetivo era ayudarle y que estuviese disponible después de la T2, ya que tanto César como yo no podíamos correr a los ritmos del resto. 
 
 {% include video_16by9.html src="//player.vimeo.com/video/139859476" %}
 

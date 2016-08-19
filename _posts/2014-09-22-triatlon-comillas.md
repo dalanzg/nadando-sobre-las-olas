@@ -118,8 +118,8 @@ Después de recoger todo el material, fui a darme un baño para relajar las pier
 
 {% include lightbox.html src="/img/2014-09-22-triatlon-comillas/triatlon-comillas-17.jpg" title="Chapuzón al finalizar" width="500" %}
 
-Ahora mi próximo objetivo será el triatlón de media distancia de Canet el 19 de octubre. Me veo muy bien de forma, pero quizás estoy notando que la temporada se me está haciendo un poco larga. La única parte positiva es la ilusión que tengo de hacer este año un media distancia, ya que no tuve la oportunidad de hacerlo en el triatlón de Buelna debido a las condiciones metereológicas.
+Ahora mi próximo objetivo será el triatlón de media distancia de Canet el 19 de octubre. Me veo muy bien de forma, pero quizás estoy notando que la temporada se me está haciendo un poco larga. La única parte positiva es la ilusión que tengo de hacer este año un media distancia, ya que no tuve la oportunidad de hacerlo en el triatlón de Buelna debido a las condiciones meteorológicas.
 
 Un saludo y a seguir entrenando!!
 
-P.D: Agradecimientos a [Nuria](https://www.facebook.com/fotosnuria?fref=ts) por las fotos!! Muchísimas gracias por compartirlas!!
+Agradecimientos a [Nuria](https://www.facebook.com/fotosnuria?fref=ts) por las fotos!! Muchísimas gracias por compartirlas!!

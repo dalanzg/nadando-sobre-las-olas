@@ -58,7 +58,7 @@ Rodábamos muy rápido, e inmediatamente dimos alcance a Chano (Buelna), Poo (Be
 
 Disfruté como nunca. Quizás ha sido una de las carreras de bici con drafting más divertidas que he corrido hasta ahora. Es un lujo correr así, y no en un grupo multitudinario que solo tiran cuatro personas contadas.
 
-Se acercaba la T2, y en realidad todos íbamos un poco cansandos, ya que fueron unos relevos intensos con poco descanso. Llegué a boxes con la incertidumbre de cómo iba a afrontar los últimos 2,5km. Dejé tanto la bici como el casco, y me calcé las zapatillas caladas para afrontar el último sector.
+Se acercaba la T2, y en realidad todos íbamos un poco cansados, ya que fueron unos relevos intensos con poco descanso. Llegué a boxes con la incertidumbre de cómo iba a afrontar los últimos 2,5km. Dejé tanto la bici como el casco, y me calcé las zapatillas caladas para afrontar el último sector.
 
 {% include lightbox.html src="/img/2016-03-20-duatlon-santander/duatlon-santander-t2.jpg" title="Llegando a la T2" width="500" %}
 

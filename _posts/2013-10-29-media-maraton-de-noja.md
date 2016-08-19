@@ -44,4 +44,4 @@ Os esperamos en la próxima aventura, que de momento no está decidida.
 
 Un saludo!!
 
-P.D: Agradecimientos a Juan Manuel Salas por las fotografías.
+Agradecimientos a Juan Manuel Salas por las fotografías.

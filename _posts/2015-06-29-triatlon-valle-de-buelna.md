@@ -96,4 +96,4 @@ Nada más acabar, fui como pude para "pedir la vez" en el fisio para un masaje d
 
 Muy satisfecho del resultado. Ahora a recuperarse durante esta semana para afrontar el Triatlón de La Bola el próximo domingo 5 de julio. 
 
-P.D: Muchísimas gracias a todos los fotógrafos que nos ofrecen este recuerdo, en especial a Nuria GD, OИA OИAЯI, D objetivo foto, Pablo Gómez Sal e Imanol Mujika.
+Muchísimas gracias a todos los fotógrafos que nos ofrecen este recuerdo, en especial a Nuria GD, OИA OИAЯI, D objetivo foto, Pablo Gómez Sal e Imanol Mujika.

@@ -96,4 +96,4 @@ Ahora mi próximo objetivo: Triatlón de Pálmaces el 26 de julio (1800m - 60km 
 
 Un saludo y a seguir entrenando!!
 
-P.D: Muchas gracias a Claudia y a Neo por el reportaje fotográfico y el vídeo.
+Muchas gracias a Claudia y a Neo por el reportaje fotográfico y el vídeo.

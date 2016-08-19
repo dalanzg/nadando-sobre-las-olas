@@ -118,4 +118,4 @@ Con esta competición cerramos la temporada 2014. Una temporada en la que he vue
 
 Un saludo y a seguir entrenando!!
 
-P.D: Agradecimientos a Txema, Fotos Ciclistas y [corriendovoy.com](http://corriendovoy.com/) por las fotos y el vídeo.
+Agradecimientos a Txema, Fotos Ciclistas y [corriendovoy.com](http://corriendovoy.com/) por las fotos y el vídeo.
