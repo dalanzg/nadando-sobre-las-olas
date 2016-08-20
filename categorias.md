@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Posts por categorías
+description: Posts ordenados por categorías.
 ---
 
 <div class="card">

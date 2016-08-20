@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archivo
+description: Posts ordenados por fecha.
 ---
 
 <div class="card">
