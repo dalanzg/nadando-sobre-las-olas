@@ -14,7 +14,7 @@ layout: default
         {% if page.date %}
         <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
           {{  page.date | date: '%-d' }} de
-          {% assign m = post.date | date: '%-m' %}
+          {% assign m = page.date | date: '%-m' %}
           {% case m %}
             {% when '1' %}enero
             {% when '2' %}febrero
