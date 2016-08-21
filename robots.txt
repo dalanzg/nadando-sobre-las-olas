@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /page*/
+Disallow: /triatlón/
+Disallow: /duatlón/
+Disallow: /natación/
+
+Sitemap: https://dalanzg.github.io/nadando-sobre-las-olas/sitemap.xml
