@@ -18,8 +18,11 @@ url: "https://dalanzg.github.io" # the base hostname & protocol for your site
 analytics:
   google: UA-65400010-2
 
-bing: BD0D07966DC9A60772D4A70377ED337D
+# Search engines
+google_site_verification: CeO9J_0wi37-MvDa_F7AmZJYunwDhFGjv8eSlJFPil8
+bing_webmaster: BD0D07966DC9A60772D4A70377ED337D
 
+# Comments
 comments:
   disqus: nadando-sobre-las-olas
 
