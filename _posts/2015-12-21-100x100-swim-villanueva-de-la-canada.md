@@ -43,7 +43,7 @@ Llegó el último relevo, y sacábamos al segundo un poco más de un largo. Javi
 
 {% include lightbox.html src="/img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-2.jpg" title="Equipo Aguaverde" width="500" %}
 
-{% include lightbox.html src="/img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-tiempos.jpg" title="Tiempos equipo Aguaverde" width="600" %}
+{% include lightbox.html src="/img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-tiempos.png" title="Tiempos equipo Aguaverde" width="600" %}
 
 Una pena, ya que si yo hubiese estado al mismo nivel que el año pasado, mis relevos hubiesen sido más constantes (en torno a 1'10"), y hubiésemos tenido el tiempo suficiente para poder haber acabado en primera posición.
 
