@@ -8,11 +8,11 @@ layout: default
     <div class="card">
       <div class="card-header"><h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4></div>
       <div class="card-block">
-        <div class="row">
-          <div class="col-md-4">
+        <nav class="nav nav-inline">
+          <div class="nav-link">
             {% if post.author %}<small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</small>{% endif %}
           </div>
-          <div class="col-md-4">
+          <div class="nav-link">
             {% if post.date %}
               <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
                 {{  post.date | date: '%-d' }} de
@@ -35,10 +35,10 @@ layout: default
               </small>
             {% endif %}
           </div>
-          <div class="col-md-4">
+          <div class="nav-link">
             {% if post.tags %}<p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags | join: ', ' }}</small></p>{% endif %}
           </div>
-        </div>
+        </nav>
         <div class="row">
           <div class="col-md-4">
             <img class="img-post" src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.categories | first }}">

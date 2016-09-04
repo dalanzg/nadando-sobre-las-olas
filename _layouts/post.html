@@ -6,11 +6,11 @@ layout: default
 <div class="card">
   <h1 class="card-header">{{ page.title }}</h1>
   <div class="card-block">
-    <div class="row">
-      <div class="col-md-4">
+    <nav class="nav nav-inline">
+      <div class="nav-item">
         {% if page.author %}<small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ page.author }}</small>{% endif %}
       </div>
-      <div class="col-md-4">
+      <div class="nav-item">
         {% if page.date %}
         <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
           {{  page.date | date: '%-d' }} de
@@ -33,10 +33,10 @@ layout: default
         </small>
         {% endif %}
       </div>
-      <div class="col-md-4">
+      <div class="nav-item">
         {% if page.tags %}<p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small></p>{% endif %}
       </div>
-    </div>
+    </nav>
     <div>
     {{  content }}
     </div>
