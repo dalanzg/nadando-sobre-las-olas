@@ -36,12 +36,13 @@ layout: default
       {% endif %}
       {% if page.tags %}
       <div class="nav-item">
-        <p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small></p>
+        <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small>
       </div>
       {% endif %}
     </nav>
+    <hr>
     <div>
-    {{  content }}
+      {{  content }}
     </div>
   </div>
   <div class="card-block">
