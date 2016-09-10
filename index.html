@@ -9,36 +9,41 @@ layout: default
       <div class="card-header"><h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4></div>
       <div class="card-block">
         <nav class="nav nav-inline">
+          {% if post.author %}
           <div class="nav-link">
-            {% if post.author %}<small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</small>{% endif %}
+            <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ post.author }}</small>
           </div>
+          {% endif %}
+          {% if post.date %}
           <div class="nav-link">
-            {% if post.date %}
-              <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
-                {{  post.date | date: '%-d' }} de
-                {% assign m = post.date | date: '%-m' %}
-                {% case m %}
-                  {% when '1' %}enero
-                  {% when '2' %}febrero
-                  {% when '3' %}marzo
-                  {% when '4' %}abril
-                  {% when '5' %}mayo
-                  {% when '6' %}junio
-                  {% when '7' %}julio
-                  {% when '8' %}agosto
-                  {% when '9' %}septiembre
-                  {% when '10' %}octubre
-                  {% when '11' %}noviembre
-                  {% when '12' %}diciembre
-                {% endcase %}
-                de {{  post.date | date: '%Y' }}
-              </small>
-            {% endif %}
+            <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
+              {{  post.date | date: '%-d' }} de
+              {% assign m = post.date | date: '%-m' %}
+              {% case m %}
+                {% when '1' %}enero
+                {% when '2' %}febrero
+                {% when '3' %}marzo
+                {% when '4' %}abril
+                {% when '5' %}mayo
+                {% when '6' %}junio
+                {% when '7' %}julio
+                {% when '8' %}agosto
+                {% when '9' %}septiembre
+                {% when '10' %}octubre
+                {% when '11' %}noviembre
+                {% when '12' %}diciembre
+              {% endcase %}
+              de {{  post.date | date: '%Y' }}
+            </small>
           </div>
+          {% endif %}
+          {% if post.tags %}
           <div class="nav-link">
-            {% if post.tags %}<p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags | join: ', ' }}</small></p>{% endif %}
+            <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags | join: ', ' }}</small>
           </div>
+          {% endif %}
         </nav>
+        <hr>
         <div class="row">
           <div class="col-md-4">
             <img class="img-post" src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.categories | first }}">

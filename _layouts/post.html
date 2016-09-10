@@ -2,16 +2,17 @@
 layout: default
 ---
 
-<!-- Post Content -->
 <div class="card">
   <h1 class="card-header">{{ page.title }}</h1>
   <div class="card-block">
     <nav class="nav nav-inline">
+      {% if page.author %}
       <div class="nav-item">
-        {% if page.author %}<small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ page.author }}</small>{% endif %}
+        <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ page.author }}</small>
       </div>
+      {% endif %}
+      {% if page.date %}
       <div class="nav-item">
-        {% if page.date %}
         <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
           {{  page.date | date: '%-d' }} de
           {% assign m = page.date | date: '%-m' %}
@@ -31,11 +32,13 @@ layout: default
           {% endcase %}
           de {{  page.date | date: '%Y' }}
         </small>
-        {% endif %}
       </div>
+      {% endif %}
+      {% if page.tags %}
       <div class="nav-item">
-        {% if page.tags %}<p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small></p>{% endif %}
+        <p><small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small></p>
       </div>
+      {% endif %}
     </nav>
     <div>
     {{  content }}
