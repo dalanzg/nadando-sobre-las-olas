@@ -49,7 +49,7 @@ layout: default
       <ul class="pagination">
         {% if page.previous.url %}
         <li class="page-item">
-          <a class="page-link" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+          <a class="page-link" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous" rel="prev">
             <span aria-hidden="true">&laquo; Post previo</span>
             <span class="sr-only">&laquo; Post previo</span>
           </a>
@@ -57,7 +57,7 @@ layout: default
         {% endif %}
         {% if page.next.url %}
         <li class="page-item">
-          <a class="page-link" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+          <a class="page-link" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next" rel="next">
             <span aria-hidden="true">Siguiente post &raquo;</span>
             <span class="sr-only">Siguiente post &raquo;</span>
           </a>
