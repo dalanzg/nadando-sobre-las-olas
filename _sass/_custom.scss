@@ -3,9 +3,9 @@
 }
 
 .img-post {
-  @extend .img-rounded;
+  @extend .rounded;
   @extend .img-fluid;
-  @extend .m-x-auto;
+  @extend .mx-auto;
   @extend .d-block;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .garmin {
-  @extend .m-x-auto;
+  @extend .mx-auto;
   @extend .d-block;
   max-width: 465px;
 }
@@ -30,7 +30,7 @@
 }
 
 .strava {
-  @extend .m-x-auto;
+  @extend .mx-auto;
   @extend .d-block;
   max-width: 300px;
 }
