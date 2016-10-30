@@ -2,7 +2,7 @@
 layout: post
 title: Carrera de Navidad Cercedilla 2015
 date: 2015-12-13 20:07:00
-author: Daniel Lanza García
+author: dalanzg
 description: Volvimos a la montaña junto con Pablo Ibarguren para correr el Trail en Cercedilla.
 tags:
   - Atletismo

@@ -2,7 +2,7 @@
 layout: post
 title: Media Maratón de Noja 2013
 date: 2013-10-29 13:21:00
-author: Daniel Lanza García
+author: dalanzg
 description: Más de 600 participantes tomaron linea de salida, y se corrió la modalidad de Media Maratón, 10k y 5k. Yo participé en la prueba de 10k, y poco fui encontrando sensaciones.
 tags:
   - Atletismo

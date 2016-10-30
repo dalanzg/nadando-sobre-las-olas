@@ -2,7 +2,7 @@
 layout: post
 title: Duatlón Santander 2016
 date: 2016-03-20 14:31:00
-author: Daniel Lanza García
+author: dalanzg
 description: Primera carrera de la temporada en Santander y en un día de perros (frío, viento y lluvia).
 tags:
   - Duatlón

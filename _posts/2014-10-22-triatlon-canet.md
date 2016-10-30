@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón MD Canet 2014
 date: 2014-10-22 23:17:00
-author: Daniel Lanza García
+author: dalanzg
 description: No se puede cerrar una temporada mejor. ¡3º puesto en la categoría 25-29M en el triatlón de larga distancia de Canet!
 tags:
   - Triatlón

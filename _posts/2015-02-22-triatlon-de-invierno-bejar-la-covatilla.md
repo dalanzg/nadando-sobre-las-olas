@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón de Invierno Béjar - La Covatilla 2015
 date: 2015-02-22 20:58:00
-author: Daniel Lanza García
+author: dalanzg
 description: Se puso punto y final a los triatlones de invierno en esta temporada 2015. Muy satisfecho de haberme iniciado en esta nueva disciplina en Valle de Ansó y haber terminado la prueba de Béjar - La Covatilla.
 tags:
   - Triatlón Blanco

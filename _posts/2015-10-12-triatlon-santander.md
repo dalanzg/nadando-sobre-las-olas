@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Santander 2015
 date: 2015-10-12 14:54:00
-author: Daniel Lanza García
+author: dalanzg
 description: Por fin se terminó otra temporada más, pero con un sabor agridulce. Volvía a casa para compaginar una visita familiar con una prueba deportiva, pero esta última me decepcionó bastante, y debido a un error, no pude finalizar la carrera.
 tags:
   - Triatlón

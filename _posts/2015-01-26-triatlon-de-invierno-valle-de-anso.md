@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón de Invierno Valle de Ansó 2015
 date: 2015-01-26 21:37:00
-author: Daniel Lanza García
+author: dalanzg
 description: Debut oficial en un triatlón de invierno. Nos desplazamos hasta el pueblo de Ansó junto con Bocina y Fernando.
 tags:
   - Triatlón Blanco

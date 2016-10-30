@@ -2,7 +2,7 @@
 layout: post
 title: Travesía Limpias 2015
 date: 2015-08-04 19:46:00
-author: Daniel Lanza García
+author: dalanzg
 description: Punto y final a las dos semanas de vacaciones, y me despedí de la tierruca con la Travesía de Limpias.
 tags:
   - Natación

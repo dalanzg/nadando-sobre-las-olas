@@ -2,7 +2,7 @@
 layout: post
 title: San Silvestre Santander 2013
 date: 2013-12-31 15:52:00
-author: Daniel Lanza García
+author: dalanzg
 description: Fin de año 2013 y participación en la San Silvestre de Santander. Buena forma de acabar el año.
 tags:
   - Atletismo

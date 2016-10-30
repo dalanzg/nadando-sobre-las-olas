@@ -2,7 +2,7 @@
 layout: post
 title: Cpto Comunidad de Madrid Contrarreloj por equipos 2015
 date: 2015-09-21 19:23:00
-author: Daniel Lanza García
+author: dalanzg
 description: De vuelta al campeonato de Madrid de equipos vistiendo los colores de Aguaverde. Formé equipo con Manu, Nico, Penkes, Albertini y César.
 tags:
   - Triatlón

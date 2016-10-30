@@ -2,7 +2,7 @@
 layout: post
 title: Carrera de los emprendedores 2014
 date: 2014-11-23 13:10:00
-author: Daniel Lanza García
+author: dalanzg
 description: Un pequeño test de 10k para ver cómo me encontraba. Esta vez me acompañaban algunos viejos integrantes del DreamTeam de la UC.
 tags:
   - Atletismo

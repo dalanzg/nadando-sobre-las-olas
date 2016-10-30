@@ -2,7 +2,7 @@
 layout: post
 title: San Silvestre Santander 2015
 date: 2015-12-31 18:49:00
-author: Daniel Lanza García
+author: dalanzg
 description: ¡Feliz año 2016! Acabamos otro año más y participando en otra carrera, la San Silvestre de Santander. Esta vez fue sin esforzar la máquina y disfrazado como Pedro Picapiedra con mi gente.
 tags:
   - Atletismo
