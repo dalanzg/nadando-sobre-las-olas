@@ -2,13 +2,39 @@
 layout: default
 ---
 
-<div class="card">
-  <h1 class="card-header">{{ page.title }}</h1>
+{% assign author = site.data.authors[page.author] %}
+{% if page.date_modified %}
+{% assign modified = page.date_modified %}
+{% else %}
+{% assign modified = page.date %}
+{% endif %}
+
+<div class="card" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1 class="card-header" itemprop="name headline">{{ page.title }}</h1>
+  <meta content="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+  <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
+  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="{{ author.name }}">
+  </span>
+  <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="{{ site.title }}">
+    <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
+      <meta itemprop="height" content="192">
+      <meta itemprop="width" content="192">
+    </span>
+  </span>
+  <meta itemprop="mainEntityOfPage" content="{{ site.baseurl | prepend: site.url }}">
+  <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+    <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
+    <meta itemprop="height" content="192">
+    <meta itemprop="width" content="192">
+  </span>
   <div class="card-block">
     <nav class="nav nav-inline">
       {% if page.author %}
       <div class="nav-item">
-        <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ page.author }}</small>
+        <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
       </div>
       {% endif %}
       {% if page.date %}
