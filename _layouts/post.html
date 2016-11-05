@@ -11,6 +11,7 @@ layout: default
 
 <div class="card" itemscope itemtype="http://schema.org/BlogPosting">
   <h1 class="card-header" itemprop="name headline">{{ page.title }}</h1>
+  <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" itemprop="url">
   <meta content="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
   <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
   <span itemprop="author" itemscope itemtype="http://schema.org/Person">
