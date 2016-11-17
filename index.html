@@ -21,10 +21,10 @@ layout: default
         <nav class="nav nav-inline">
           {% if post.author %}
           {% assign author = site.data.authors[post.author] %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="name" content="{{ author.name }}">
-          </span>
-          <div class="nav-link">
+          <div class="nav-item">
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <meta itemprop="name" content="{{ author.name }}">
+            </span>
             <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
           </div>
           {% endif %}
@@ -34,9 +34,9 @@ layout: default
             {% else %}
             {% assign modified = post.date %}
             {% endif %}
-          <meta content="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-          <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
-          <div class="nav-link">
+          <div class="nav-item">
+            <meta content="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
             <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
               {{  post.date | date: '%-d' }} de
               {% assign m = post.date | date: '%-m' %}
@@ -59,7 +59,7 @@ layout: default
           </div>
           {% endif %}
           {% if post.tags %}
-          <div class="nav-link">
+          <div class="nav-item">
             <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ post.tags | join: ', ' }}</small>
           </div>
           {% endif %}
