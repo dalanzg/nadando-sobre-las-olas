@@ -15,7 +15,10 @@ description: "Crónicas deportivas de Daniel Lanza, consultor OpenText de día y
 baseurl: "/nadando-sobre-las-olas" # the subpath of your site, e.g. /blog
 url: "https://dalanzg.github.io" # the base hostname & protocol for your site
 
-favicon_192x192: "/img/favicons/android-chrome-192x192.png"
+logo:
+  path: "/img/favicons/android-chrome-192x192.png"
+  width: 192
+  height: 192
 
 analytics:
   google: UA-65400010-2
