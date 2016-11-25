@@ -9,28 +9,21 @@ layout: default
 {% assign modified = page.date %}
 {% endif %}
 
-<div class="card" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="card-header" itemprop="name headline">{{ page.title }}</h1>
-  <meta content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" itemprop="url">
-  <meta content="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-  <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
-  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="{{ author.name }}">
-  </span>
-  <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="{{ site.title }}">
-    <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
-      <meta itemprop="height" content="192">
-      <meta itemprop="width" content="192">
-    </span>
-  </span>
-  <meta itemprop="mainEntityOfPage" content="{{ site.baseurl | prepend: site.url }}">
-  <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-    <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
-    <meta itemprop="height" content="192">
-    <meta itemprop="width" content="192">
-  </span>
+{%
+  include structuredData_blogpost.html
+  headline=page.title
+  tags=page.tags
+  author=author
+  description=page.description
+  datePublished=page.date
+  dateModified=modified
+  image=page.image
+  content=page.content
+  link=page.url
+%}
+
+<div class="card">
+  <h1 class="card-header">{{ page.title }}</h1>
   <div class="card-block">
     <nav class="nav nav-inline">
       {% if page.author %}

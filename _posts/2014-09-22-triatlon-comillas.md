@@ -2,11 +2,15 @@
 layout: post
 title: Triatlón Comillas 2014
 date: 2014-09-22 00:29:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Después de casi dos meses sin competir en un triatlón, acudí al campeonato regional de Cantabria celebrado en Comillas. De esta manera, ponía el punto y final a la temporada de competiciones en Cantabria.
 tags:
   - Triatlón
-thumbnail: /img/2014-09-22-triatlon-comillas/triatlon-comillas-10.jpg
+image:
+  path: /img/2014-09-22-triatlon-comillas/triatlon-comillas-10.jpg
+  width: 1600
+  height: 1189
 comments: true
 ---
 

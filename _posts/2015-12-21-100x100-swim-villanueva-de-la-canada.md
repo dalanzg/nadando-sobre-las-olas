@@ -2,12 +2,16 @@
 layout: post
 title: 100x100 Swim Villanueva de la Cañada 2015
 date: 2015-12-21 19:33:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Y ahí estuvo Aguaverde otra vez cumpliendo en el 100x100m Swim de Villanueva de la Cañada. ¡Cómo se sufre y qué bien se lo pasa uno en estas pruebas!
 tags:
   - Natación
   - Aguaverde
-thumbnail: /img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-2.jpg
+image:
+  path: /img/2015-12-21-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-2.jpg
+  width: 960
+  height: 639
 comments: true
 ---
 

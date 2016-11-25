@@ -2,11 +2,15 @@
 layout: post
 title: Subida Pedestre Peña Cabarga 2013
 date: 2013-10-23 11:35:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Primera crónica del blog, y nada menos que con la Subida Pedestre de Peña Cabarga.
 tags:
   - Atletismo
-thumbnail: /img/2013-10-23-subida-pedestre-pena-cabarga/subida-pedestre-penacabarga-dorsal.jpg
+image:
+  path: /img/2013-10-23-subida-pedestre-pena-cabarga/subida-pedestre-penacabarga-dorsal.jpg
+  width: 1080
+  height: 807
 comments: true
 ---
 

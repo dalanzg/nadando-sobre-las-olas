@@ -2,11 +2,15 @@
 layout: post
 title: Duatlón Polanco 2014
 date: 2014-04-27 22:45:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Primer duatlón en Cantabria después de mi vuelta. Nada mejor que volver a casa y competir con viejos compañeros.
 tags:
   - Duatlón
-thumbnail: /img/2014-04-27-duatlon-polanco/duatlon-polanco-dreamteam.jpg
+image:
+  path: /img/2014-04-27-duatlon-polanco/duatlon-polanco-dreamteam.jpg
+  width: 1600
+  height: 1200
 comments: true
 ---
 

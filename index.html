@@ -2,29 +2,18 @@
 layout: default
 ---
 
+{% include structuredData_index.html %}
+
 <div class="row">
-  <div class="col-md-8" itemscope itemtype="http://schema.org/Blog">
-    <meta itemprop="name" content="{{ site.title }}">
+  <div class="col-md-8">
     {% for post in paginator.posts %}
-    <div class="card" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-      <div class="card-header"><h4><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url"><span itemprop="name headline">{{ post.title }}</span></a></h4></div>
-      <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-        <meta itemprop="name" content="{{ site.title }}">
-        <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-          <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
-          <meta itemprop="height" content="192">
-          <meta itemprop="width" content="192">
-        </span>
-      </span>
-      <meta itemprop="mainEntityOfPage" content="{{ site.baseurl | prepend: site.url }}">
+    <div class="card">
+      <div class="card-header"><h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4></div>
       <div class="card-block">
         <nav class="nav nav-inline">
           {% if post.author %}
           {% assign author = site.data.authors[post.author] %}
           <div class="nav-item">
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <meta itemprop="name" content="{{ author.name }}">
-            </span>
             <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
           </div>
           {% endif %}
@@ -35,8 +24,6 @@ layout: default
             {% assign modified = post.date %}
             {% endif %}
           <div class="nav-item">
-            <meta content="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-            <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified">
             <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
               {{  post.date | date: '%-d' }} de
               {% assign m = post.date | date: '%-m' %}
@@ -67,15 +54,10 @@ layout: default
         <hr>
         <div class="row">
           <div class="col-md-4">
-            <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-              <meta itemprop="url" content="{{ site.favicon_192x192 | prepend: site.baseurl | prepend: site.url }}">
-              <meta itemprop="height" content="192">
-              <meta itemprop="width" content="192">
-            </span>
-            <img class="img-post" src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.categories | first }}">
+            <img class="img-post" src="{{ post.image.path | prepend: site.baseurl }}" alt="{{ post.title}}" title="{{ post.title }}">
           </div>
           <div class="col-md-8">
-            <p class="card-text" itemprop="description">{{ post.description }}</p>
+            <p class="card-text">{{ post.description }}</p>
           </div>
         </div>
       </div>

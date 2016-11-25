@@ -2,11 +2,15 @@
 layout: post
 title: Triatlón MD Canet 2014
 date: 2014-10-22 23:17:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: No se puede cerrar una temporada mejor. ¡3º puesto en la categoría 25-29M en el triatlón de larga distancia de Canet!
 tags:
   - Triatlón
-thumbnail: /img/2014-10-22-triatlon-canet/triatlon-canet-podio.jpg
+image:
+  path: /img/2014-10-22-triatlon-canet/triatlon-canet-podio.jpg
+  width: 900
+  height: 675
 comments: true
 ---
 

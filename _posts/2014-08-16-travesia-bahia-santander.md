@@ -2,12 +2,16 @@
 layout: post
 title: Travesía Bahía Santander 2014
 date: 2014-08-16 12:07:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Durante mis vacaciones en la tierruca, se me presentó la oportunidad de volver a hacer una travesía en aguas abiertas, y no dudé en ningún instante en nadar en mi querida ciudad natal.
 tags:
   - Natación
   - Travesía
-thumbnail: /img/2014-08-16-travesia-bahia-santander/travesia-santander-5.jpg
+image:
+  path: /img/2014-08-16-travesia-bahia-santander/travesia-santander-5.jpg
+  width: 900
+  height: 600
 comments: true
 ---
 

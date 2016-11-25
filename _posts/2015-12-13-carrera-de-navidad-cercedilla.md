@@ -2,12 +2,16 @@
 layout: post
 title: Carrera de Navidad Cercedilla 2015
 date: 2015-12-13 20:07:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Volvimos a la montaña junto con Pablo Ibarguren para correr el Trail en Cercedilla.
 tags:
   - Atletismo
   - Trail
-thumbnail: /img/2015-12-13-carrera-de-navidad-cercedilla/trail-cercedilla-carrera-navidad-previo.jpg
+image:
+  path: /img/2015-12-13-carrera-de-navidad-cercedilla/trail-cercedilla-carrera-navidad-previo.jpg
+  width: 960
+  height: 960
 comments: true
 ---
 

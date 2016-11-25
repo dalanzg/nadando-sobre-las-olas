@@ -2,12 +2,16 @@
 layout: post
 title: Trail San Lorenzo de El Escorial 2015
 date: 2015-05-10 13:51:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Nunca había estado por El Escorial, y nada mejor que hacerlo con una prueba deportiva corriendo por la montaña para disfrutar del entorno.
 tags:
   - Atletismo
   - Trail
-thumbnail: /img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-carrera.jpg
+image:
+  path: /img/2015-05-10-trail-san-lorenzo-de-el-escorial/trail-san-lorenzo-de-el-escorial-carrera.jpg
+  width: 
+  height: 
 comments: true
 ---
 
@@ -25,7 +29,7 @@ Empezamos en las cercanías del monasterio con un primer tramo llano y cuesta ab
 
 En el kilómetro 2 ya pisé terreno blando y encima cuesta arriba. Fui subiendo muy cómodo y adelantando muchas posiciones. El circuito fue constantemente por sendas perfectamente señalizadas por la organización, con lo que no había pérdida.
 
-{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-carrera.jpg" title="Saludando durante la carrera" width="500" %}
+{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trail-san-lorenzo-de-el-escorial-carrera.jpg" title="Saludando durante la carrera" width="400" %}
 
 Fui perfectamente con dos corredores manteniendo un ritmo cómodo hasta el kilómetro 6. De vez en cuando bebía agua de mi camelback, ya que a pesar de ser solo una carrera de 21km, el calor apretaba bastante, con lo que la hidratación era fundamental.
 
@@ -35,17 +39,17 @@ La carrera parecía muy fácil hasta que llegué al kilómetro 8. En este punto 
 
 Estaba apunto de llegar a la cota más alta de la carrera, y en un instante se veía al fondo el pueblo de San Lorenzo de El Escorial. En ese momento me detuve para obtener una instantánea de todo lo que había subido.
 
-{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-vistas.jpg" title="Maravillosas vistas" width="500" %}
+{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trail-san-lorenzo-de-el-escorial-vistas.jpg" title="Maravillosas vistas" width="500" %}
 
 Coroné la cima en el kilómetro 16. Pisé la alfombra para el registro del chip y me encontraba en el puesto 29. Allí se encontraba el segundo puesto de avituallamiento con comida sólida, por lo que me detuve para tomar trozos de plátano y un vaso de Coca-Cola.
 
-{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-meta-1.jpg" title="Llegando a meta" width="500" %}
+{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trail-san-lorenzo-de-el-escorial-meta-1.jpg" title="Llegando a meta" width="400" %}
 
 Lo más duro de la carrera ya había finalizado. Los últimos 5 kilómetros eran de descenso hasta llegar a San Lorenzo de El Escorial. Mi descenso fue tranquilo y con precaución, ya que el camino tenía fuertes pendientes con muchas piedras, y no quise tener ningún percance que pusiese en compromiso a Aguaverde en la Copa de Rey. Fui adelantado por varios corredores, pero cuando faltaban 1,5km el terreno era sobre asfalto. En ese momento pensé, ¡vamos a darle un poco de caña hasta meta! Subí el ritmo de carrera hasta cruzar la meta.
 
 Finalizamos la prueba en el puesto 40. Nada mal para ser un novato en esto del trail.
 
-{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trai-san-lorenzo-de-el-escorial-meta-2.jpg" title="Llegada a meta" width="500" %}
+{% include lightbox.html src="/img/2015-05-10-trail-san-lorenzo-de-el-escorial/trail-san-lorenzo-de-el-escorial-meta-2.jpg" title="Llegada a meta" width="500" %}
 
 {% include garmin.html id=769133802 class="embed-responsive-garmin-mono" %}
 

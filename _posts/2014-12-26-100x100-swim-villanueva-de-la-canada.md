@@ -2,12 +2,16 @@
 layout: post
 title: 100x100 Swim Villanueva de la Cañada 2014
 date: 2014-12-26 19:55:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Finalizamos el año con una competición de natación por relevos junto con el equipo Aguaverde en Villanueva de la Cañada. Una modalidad de 100x100m en el que el equipo estaba formado por 10 integrantes, y cada miembro tendría que realizar 10 series de 100m.
 tags:
   - Natación
   - Aguaverde
-thumbnail: /img/2014-12-26-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-postcarrera.jpg
+image:
+  path: /img/2014-12-26-100x100-swim-villanueva-de-la-canada/100x100-swim-villanueva-de-la-canada-aguaverde-postcarrera.jpg
+  width: 900
+  height: 675
 comments: true
 ---
 

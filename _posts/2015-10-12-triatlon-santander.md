@@ -2,11 +2,15 @@
 layout: post
 title: Triatlón Santander 2015
 date: 2015-10-12 14:54:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Por fin se terminó otra temporada más, pero con un sabor agridulce. Volvía a casa para compaginar una visita familiar con una prueba deportiva, pero esta última me decepcionó bastante, y debido a un error, no pude finalizar la carrera.
 tags:
   - Triatlón
-thumbnail: /img/2015-10-12-triatlon-santander/triatlon-santander-natacion-1.jpg
+image:
+  path: /img/2015-10-12-triatlon-santander/triatlon-santander-natacion-1.jpg
+  width: 900
+  height: 600
 comments: true
 ---
 

@@ -2,12 +2,16 @@
 layout: post
 title: Cpto Comunidad de Madrid Contrarreloj por equipos 2015
 date: 2015-09-21 19:23:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: De vuelta al campeonato de Madrid de equipos vistiendo los colores de Aguaverde. Formé equipo con Manu, Nico, Penkes, Albertini y César.
 tags:
   - Triatlón
   - Aguaverde
-thumbnail: /img/2015-09-21-cpto-comunidad-de-madrid-contrarreloj/campeonato-madrid-contrarreloj-bici.jpg
+image:
+  path: /img/2015-09-21-cpto-comunidad-de-madrid-contrarreloj/campeonato-madrid-contrarreloj-bici.jpg
+  width: 600
+  height: 498
 comments: true
 ---
 

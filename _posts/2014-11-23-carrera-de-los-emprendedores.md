@@ -2,11 +2,15 @@
 layout: post
 title: Carrera de los emprendedores 2014
 date: 2014-11-23 13:10:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Un pequeño test de 10k para ver cómo me encontraba. Esta vez me acompañaban algunos viejos integrantes del DreamTeam de la UC.
 tags:
   - Atletismo
-thumbnail: /img/2014-11-23-carrera-de-los-emprendedores/carrera-de-los-emprendedores.jpg
+image:
+  path: /img/2014-11-23-carrera-de-los-emprendedores/carrera-de-los-emprendedores.jpg
+  width: 900
+  height: 720
 comments: true
 ---
 

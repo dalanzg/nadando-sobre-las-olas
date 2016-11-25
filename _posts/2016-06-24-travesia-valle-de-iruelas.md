@@ -2,12 +2,16 @@
 layout: post
 title: Travesía Valle de Iruelas 2016
 date: 2016-06-24 19:56:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: ¡Reto conseguido! Travesía de 5.500m en el embalse del Burguillo y teniendo el gemelo izquierdo lesionado.
 tags:
   - Natación
   - Travesía
-thumbnail: /img/2016-06-24-travesia-valle-de-iruelas/travesia-valle-de-iruelas-salida.jpg
+image:
+  path: /img/2016-06-24-travesia-valle-de-iruelas/travesia-valle-de-iruelas-salida.jpg
+  width: 900
+  height: 506
 comments: true
 ---
 

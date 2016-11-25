@@ -2,11 +2,15 @@
 layout: post
 title: San Silvestre Santander 2013
 date: 2013-12-31 15:52:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Fin de año 2013 y participación en la San Silvestre de Santander. Buena forma de acabar el año.
 tags:
   - Atletismo
-thumbnail: /img/2013-12-31-san-silvestre-santander/san-silvestre-santander-salida.jpg
+image:
+  path: /img/2013-12-31-san-silvestre-santander/san-silvestre-santander-salida.jpg
+  width: 1350
+  height: 900
 comments: true
 ---
 

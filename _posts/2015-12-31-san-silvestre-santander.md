@@ -2,11 +2,15 @@
 layout: post
 title: San Silvestre Santander 2015
 date: 2015-12-31 18:49:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: ¡Feliz año 2016! Acabamos otro año más y participando en otra carrera, la San Silvestre de Santander. Esta vez fue sin esforzar la máquina y disfrazado como Pedro Picapiedra con mi gente.
 tags:
   - Atletismo
-thumbnail: /img/2015-12-31-san-silvestre-santander/san-silvestre-santander-1.jpg
+image:
+  path: /img/2015-12-31-san-silvestre-santander/san-silvestre-santander-1.jpg
+  width: 960
+  height: 720
 comments: true
 ---
 

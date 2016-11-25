@@ -2,11 +2,15 @@
 layout: post
 title: Triatlón Valle de Buelna 2014
 date: 2014-06-30 11:13:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Lamentablemente, el Triatlón Valle de Buelna fue suspendido debido al vendaval generado durante el inicio de la prueba.
 tags:
   - Triatlón
-thumbnail: /img/2014-06-30-triatlon-valle-de-buelna/triatlon-valle-de-buelna-suspendido.jpg
+image:
+  path: /img/2014-06-30-triatlon-valle-de-buelna/triatlon-valle-de-buelna-suspendido.jpg
+  width: 1080
+  height: 810
 comments: true
 ---
 

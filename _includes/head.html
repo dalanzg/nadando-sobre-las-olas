@@ -38,13 +38,13 @@
   {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   {% endif %}
-  {% if page.thumbnail %}
-  <meta property="og:image" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}">
-  <meta name="twitter:image" content="{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}">
+  {% if page.image.path %}
+  <meta property="og:image" content="{{ page.image.path | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ page.image.path | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:image:alt" content="{{ page.title }}">
   {% else %}
-  <meta property="og:image" content="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
-  <meta name="twitter:image" content="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:image" content="{{ site.logo.path | prepend: site.baseurl | prepend: site.url }}">
+  <meta name="twitter:image" content="{{ site.logo.path | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:image:alt" content="{{ site.title }}">
   {% endif %}
   {% if page.tags %}

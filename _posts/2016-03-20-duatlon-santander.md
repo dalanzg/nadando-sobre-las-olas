@@ -2,11 +2,15 @@
 layout: post
 title: Duatlón Santander 2016
 date: 2016-03-20 14:31:00
+date_modified: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Primera carrera de la temporada en Santander y en un día de perros (frío, viento y lluvia).
 tags:
   - Duatlón
-thumbnail: /img/2016-03-20-duatlon-santander/duatlon-santander-bici-3.jpg
+image:
+  path: /img/2016-03-20-duatlon-santander/duatlon-santander-bici-3.jpg
+  width: 979
+  height: 658
 comments: true
 ---
 
