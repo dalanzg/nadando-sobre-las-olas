@@ -18,8 +18,8 @@
         <a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
       </li>
     </ul>
-    <form class="form-inline float-xs-right" onsubmit="nadandosobrelasolas_search_google()" role="search">
-    <input class="form-control" type="text" id="nadandosobrelasolas-google-search" placeholder="Buscar...">
+    <form class="form-inline float-xs-right" action="{{ "/search" | prepend:site.baseurl }}" method="get" role="search">
+    <input class="form-control" type="text" id="search-box" name="query" placeholder="Buscar...">
       <button class="btn btn-success-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
     </form>
   </div>
