@@ -2,7 +2,7 @@
 layout: post
 title: Trofeo Locomotora Fabián Roncero 2014
 date: 2014-03-18 20:11:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Habían pasado más de 13 años desde que tomé la decisión de dejar la natación por el tenis, y en el día de hoy volví a formar parte de una competición por relevos con Aguaverde.
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Media Maratón de Kasterlee 2016
 date: 2016-11-16 23:20:00+0200
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Media maratón de Kasterlee junto con Pelayo y Pablo. Un honor haber participado en el reto 11/12 de &#35;12M12M12P, donde además, Pelayo se llevó la victoria.
 tags:

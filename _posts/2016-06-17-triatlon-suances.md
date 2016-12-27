@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Suances 2016
 date: 2016-06-17 20:07:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Volviendo a Suances después de varios años y me lesiono subiendo las escaleras. Pude finalizar la bici.
 tags:

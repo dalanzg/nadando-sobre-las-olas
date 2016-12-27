@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Juarros de Voltoya 2014
 date: 2014-06-01 16:16:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Llegó la hora de un triatlón olímpico sin drafting para comprobar mi estado de forma antes del medio ironman de Valle de Buelna.
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Trail Costa Quebrada 2016
 date: 2016-04-07 20:17:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Estaba esperando con muchas ganas esta carrera. Principalmente porque iba a correr en Liencres, el pueblo donde viví hasta los 21 años.
 tags:

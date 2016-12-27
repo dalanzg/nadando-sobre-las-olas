@@ -2,7 +2,7 @@
 layout: post
 title: Trail San Lorenzo de El Escorial 2015
 date: 2015-05-10 13:51:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Nunca había estado por El Escorial, y nada mejor que hacerlo con una prueba deportiva corriendo por la montaña para disfrutar del entorno.
 tags:

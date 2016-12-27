@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Valle de Buelna 2015
 date: 2015-06-29 20:46:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Y llegó finalmente una de las fechas más esperadas del año. Era una carrera muy especial, ya que tenía ganas de volver a terminar por segunda vez esta prueba. ¡Qué buenos recuerdos aquel año en el 2009 cuando finalicé como pude y quedé campeón regional sub-23!
 tags:

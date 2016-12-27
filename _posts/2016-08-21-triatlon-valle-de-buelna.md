@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Valle de Buelna 2016
 date: 2016-08-21 19:50:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: ¡Ya son 3 ediciones finalizadas del Triatlón Valle de Buelna! Un año complicado con muy pocas carreras, además de una lesión reciente que apenas me ha permitido entrenar la carrera a pie.
 tags:

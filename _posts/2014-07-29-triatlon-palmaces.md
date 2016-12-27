@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Pálmaces 2014
 date: 2014-07-29 21:57:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Primera partición en uno de los triatlones más famosos de este país. Ni la distancia ni la altas temperaturas impidieron que terminara en una buena posición.
 tags:

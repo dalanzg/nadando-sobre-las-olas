@@ -2,7 +2,7 @@
 layout: post
 title: Duatlón Torrelavega 2015
 date: 2015-03-23 22:32:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Abandono en el primer duatlón de la temporada en Torrelavega debido a problemas mecánicos y posteriormente un pinchazo en la rueda trasera.
 tags:

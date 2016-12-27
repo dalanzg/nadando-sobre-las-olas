@@ -18,8 +18,8 @@ layout: default
           </div>
           {% endif %}
           {% if post.date %}
-            {% if post.date_modified %}
-            {% assign modified = post.date_modified %}
+            {% if post.last_modified_at %}
+            {% assign modified = post.last_modified_at %}
             {% else %}
             {% assign modified = post.date %}
             {% endif %}

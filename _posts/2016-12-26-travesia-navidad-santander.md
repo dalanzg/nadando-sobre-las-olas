@@ -2,7 +2,7 @@
 layout: post
 title: Travesía de Navidad de Santander 2016
 date: 2016-12-26 10:51:00+0100
-date_modified: 2016-12-26 10:51:00+0100
+last_modified_at: 2016-12-26 10:51:00+0100
 author: dalanzg
 description: Queda muy poco para terminar el año 2016, y lo celebramos con un buen chapuzón en la Bahía de Santander.
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Ciudad de la Cerámica 2014
 date: 2014-05-05 22:07:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Comenzó la temporada de triatlón. Llevaba desde el triatlón de Suances del 2012 sin vestirme el traje de neopreno, y esta vez lo hice en la ciudad de Talavera de la Reina.
 tags:

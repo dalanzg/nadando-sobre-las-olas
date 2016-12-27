@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% assign author = site.data.authors[page.author] %}
-{% if page.date_modified %}
-{% assign modified = page.date_modified %}
+{% if page.last_modified_at %}
+{% assign modified = page.last_modified_at %}
 {% else %}
 {% assign modified = page.date %}
 {% endif %}

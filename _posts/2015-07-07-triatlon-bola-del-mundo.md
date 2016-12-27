@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Bola del Mundo 2015
 date: 2015-07-07 15:59:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Triatlon por la montaña. Ascenso al Navacerrada y Bola del Mundo, y a continuación carrera por la cuerda larga. Así ponemos punto final a la temporada.
 tags:

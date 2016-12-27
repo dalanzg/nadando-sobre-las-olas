@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón TriaRoc 2016
 date: 2016-05-30 22:09:00
-date_modified: 2016-12-25 19:35:00+0100
+last_modified_at: 2016-12-25 19:35:00+0100
 author: dalanzg
 description: Mi ritmo de competición iba a ser una incógnita. Un duatlón y un trail fue lo único que había corrido durante este año, así que no sabía cómo iban a responder las piernas en este inicio de temporada de triatlón.
 tags:
