@@ -7,8 +7,27 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+
+        if (i == 0) {
+          appendString += '<div class="card-columns">';
+        }
+        
+        appendString += '<div class="card">';
+        appendString += '<img class="card-img-top img-fluid" src="' + item.image + '" alt="' + item.title + '" title="' + item.title + '"">';
+        appendString += '<div class="card-block">';
+        appendString += '<h4 class="card-title">' + item.title + '</h4>';
+        appendString += '<p class="card-text">' + item.description + '</p>';
+        appendString += '<p class="text-xs-center"><a href="' + item.url + '" class="btn btn-primary">Leer más</a></p>';
+        appendString += '<nav class="nav nav-inline">';
+        appendString += '<div class="nav-item"><i class="fa fa-calendar" aria-hidden="true"></i><small class="text-muted"> ' + item.date + '</small></div>';
+        appendString += '<div class="nav-item"><i class="fa fa-tags" aria-hidden="true"></i><small class="text-muted"> ' + item.tags + '</small></div>'
+        appendString += '</nav>';
+        appendString += '</div>';
+        appendString += '</div>';
+
+        if (i == results.length-1) {
+          appendString += '</div>';
+        }
       }
 
       searchResults.innerHTML = appendString;
@@ -40,8 +59,11 @@
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
+      this.field('description');
+      this.field('date');
       this.field('author');
-      this.field('category');
+      this.field('tags');
+      this.field('image');
       this.field('content');
     });
 
@@ -49,8 +71,11 @@
       idx.add({
         'id': key,
         'title': window.store[key].title,
+        'description': window.store[key].description,
+        'date': window.store[key].date,
         'author': window.store[key].author,
-        'category': window.store[key].category,
+        'tags': window.store[key].tags,
+        'image': window.store[key].image,
         'content': window.store[key].content
       });
 
