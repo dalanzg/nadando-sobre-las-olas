@@ -4,10 +4,6 @@ title: Archivo
 description: Posts ordenados por fecha.
 ---
 
-<div class="card">
-  <div class="card-header"><h1>Archivo</h1></div>
-  <div class="card-block">
-
 {% for post in site.posts %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% capture this_month %}
@@ -47,38 +43,35 @@ description: Posts ordenados por fecha.
 {% endcapture %}
 
 {% if forloop.first %}
-    <div class="card">
-      <div class="card-header"><h4>Año {{ this_year }}</h4></div>
-      <div class="card-block">
-        <h5>{{ this_month }}</h5>
-        <ul>
+<div class="card">
+  <div class="card-header"><h4>Año {{ this_year }}</h4></div>
+  <div class="card-block">
+    <h5>{{ this_month }}</h5>
+    <ul>
 {% endif %}
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>  •  <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-          </li>
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>  •  <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+      </li>
 {% if forloop.last %}
-        </ul>
-      </div>
-    </div>
+    </ul>
+  </div>
+</div>
 {% else %}
   {% if this_year != next_year %}
-        </ul>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header"><h4>Año {{ next_year }}</h4></div>
-      <div class="card-block">
-        <h5>{{ next_month }}</h5>
-        <ul>
+    </ul>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header"><h4>Año {{ next_year }}</h4></div>
+  <div class="card-block">
+    <h5>{{ next_month }}</h5>
+    <ul>
   {% else %}
     {% if this_month != next_month %}
-        </ul>
-        <h5>{{ next_month }}</h5>
-        <ul>
+    </ul>
+    <h5>{{ next_month }}</h5>
+    <ul>
     {% endif %}
   {% endif %}
 {% endif %}
 {% endfor %}
-
-  </div>
-</div>
