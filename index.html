@@ -12,7 +12,7 @@ layout: default
     {% endif %}
     <div class="card-block">
       {% if post.title %}
-      <h4 class="card-title">{{ post.title }}</h4>
+      <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="card-title">{{ post.title }}</h4></a></p>
       {% endif %}
       {% if post.description %}
       <p class="card-text">{{ post.description }}</p>
