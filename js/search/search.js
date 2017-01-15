@@ -15,7 +15,7 @@
         appendString += '<div class="card">';
         appendString += '<img class="card-img-top img-fluid" src="' + item.image + '" alt="' + item.title + '" title="' + item.title + '"">';
         appendString += '<div class="card-block">';
-        appendString += '<h4 class="card-title">' + item.title + '</h4>';
+        appendString += '<h4 class="card-title"><a href="' + item.url + '">' + item.title + '</a></h4>';
         appendString += '<p class="card-text">' + item.description + '</p>';
         appendString += '<p class="text-xs-center"><a href="' + item.url + '" class="btn btn-primary">Leer más</a></p>';
         appendString += '<nav class="nav nav-inline">';
