@@ -18,14 +18,14 @@ layout: default
       <p class="card-text">{{ post.description }}</p>
       {% endif %}
       {% if post.url %}
-      <p class="text-xs-center"><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Leer más</a></p>
+      <p class="text-center"><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Leer más</a></p>
       {% endif %}
       <nav class="nav nav-inline">
       {% if post.date %}
-        <div class="nav-item"><i class="fa fa-calendar" aria-hidden="true"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
+        <div class="nav-link"><i class="fa fa-calendar" aria-hidden="true"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
       {% endif %}
       {% if post.tags %}
-        <div class="nav-item"><i class="fa fa-tags" aria-hidden="true"></i><small class="text-muted"> {{ post.tags | join: ', ' }}</small></div>
+        <div class="nav-link"><i class="fa fa-tags" aria-hidden="true"></i><small class="text-muted"> {{ post.tags | join: ', ' }}</small></div>
       {% endif %}
       </nav>
     </div>
@@ -33,18 +33,29 @@ layout: default
   {% endfor %}
 </div>
 <div class="card-block">
-  <nav class="blog-pagination text-xs-center">
-    {% if paginator.previous_page %}
-    <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" rel="prev">&laquo;</a>
-    {% else %}
-    <a class="btn btn-outline-secondary disabled" href="#">&laquo;</a>
-    {% endif %}
-    <a class="btn btn-outline-secondary disabled" href="#">Página: {{ paginator.page }} de {{ paginator.total_pages }}</a>
-    {% if paginator.next_page %}
-    <a class="btn btn-outline-primary" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="next">&raquo;</a>
-    {% else %}
-    <a class="btn btn-outline-secondary disabled" href="#">&raquo;</a>
-    {% endif %}
+  <nav aria-label="..." class="nav justify-content-center">
+    <ul class="pagination">
+      {% if paginator.previous_page %}
+      <li class="page-item active">
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" rel="prev">&laquo;</a>
+      </li>
+      {% else %}
+      <li class="page-item disable">
+        <span class="page-link">&laquo;</span>
+      </li>
+      {% endif %}
+      <li class="page-item disable">
+        <span class="page-link">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      </li>
+      {% if paginator.next_page %}
+      <li class="page-item active">
+        <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" rel="prev">&raquo;</a>
+      </li>
+      {% else %}
+      <li class="page-item disable">
+        <span class="page-link">&raquo;</span>
+      </li>
+      {% endif %}
+    </ul>
   </nav>
-</div>
 </div>

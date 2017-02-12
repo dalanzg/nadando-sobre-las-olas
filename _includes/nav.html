@@ -1,10 +1,11 @@
-<nav class="navbar navbar-light bg-faded">
-  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
-    &#9776;
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand" href="{{ "/" | prepend:site.baseurl }}"><strong>{{ site.title }}</strong></a>
-  <div class="collapse navbar-toggleable-xs" id="navbar-header">
-    <ul class="nav navbar-nav">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="{{ "/archivo/" | prepend: site.baseurl }}">Archivo</a>
       </li>
@@ -16,8 +17,8 @@
       </li>
     </ul>
     <form class="form-inline float-xs-right" action="{{ "/search" | prepend:site.baseurl }}" method="get" role="search">
-    <input class="form-control" type="text" id="search-box" name="query" placeholder="Buscar...">
-      <button class="btn btn-success-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+      <input class="form-control mr-sm-2" type="text" id="search-box" name="query" placeholder="Buscar...">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
     </form>
   </div>
 </nav>

@@ -12,7 +12,7 @@ description: Posts ordenados por categorías.
 
     <div> 
       {% for tag in tags %}
-      <a href="#{{ tag | first | slugify }}">{{ tag | first | replace: '-', ' ' }} <span class="tag tag-default">{{ tag | last | size }}</span></a>{% if forloop.last == false %} • {% endif %}{% endfor %}
+      <a href="#{{ tag | first | slugify }}">{{ tag | first | replace: '-', ' ' }} <span class="badge badge-default">{{ tag | last | size }}</span></a>{% if forloop.last == false %} • {% endif %}{% endfor %}
     </div>
   </div>
 
@@ -28,7 +28,7 @@ description: Posts ordenados por categorías.
       <span>
         {{ tag | first | replace:'-', ' ' }} 
       </span>
-      <span class="tag tag-default">{{ tag | last | size }}</span>
+      <span class="badge badge-default">{{ tag | last | size }}</span>
     </h3>
 
     <ul>
