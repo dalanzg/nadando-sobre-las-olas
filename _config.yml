@@ -45,6 +45,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
 
 # Handling Reading
 exclude: 
