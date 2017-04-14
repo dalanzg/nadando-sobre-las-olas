@@ -5,7 +5,7 @@
  "url": "{{ site.baseurl | prepend: site.url }}",
  "potentialAction": {
     "@type": "SearchAction",
-    "target": "{{ "/search/" | prepend:site.baseurl | prepend:site.url }}?query={search_term_string}",
+    "target": "{{ "/search/" | prepend:site.baseurl | prepend:site.url }}?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
  "mainEntityOfPage": {
