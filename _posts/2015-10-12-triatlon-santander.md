@@ -2,7 +2,7 @@
 layout: post
 title: Triatlón Santander 2015
 date: 2015-10-12 14:54:00
-last_modified_at: 2016-12-25 19:35:00+0100
+last_modified_at: 2017-04-16 17:27:00+0200
 author: dalanzg
 description: Por fin se terminó otra temporada más, pero con un sabor agridulce. Volvía a casa para compaginar una visita familiar con una prueba deportiva, pero esta última me decepcionó bastante, y debido a un error, no pude finalizar la carrera.
 tags:
@@ -58,7 +58,7 @@ Había dado 8 vueltas en vez de 9, por lo que ya no podía seguir compitiendo. P
 
 Me sentí un poco decepcionado con el Triatlón de Santander. Duele ver como un clásico de nuestras pruebas cántaras pierde fuerza, pero ojalá que esto se corrija el próximo año con nuevos organizadores y podamos disfrutar del espectacular escenario que tenemos en la ciudad.
 
-Una vez acabada la temporada, toca tomarse un buen descanso. En un mes reanudaré los entrenamientos con más ganas para empezar a afrontar los triatlones de invierno, una disciplina que empecé este mismo año y que disfruté en las pruebas de Ansó y Bejar-La Colanilla con el esquí de fondo.
+Una vez acabada la temporada, toca tomarse un buen descanso. En un mes reanudaré los entrenamientos con más ganas para empezar a afrontar los triatlones de invierno, una disciplina que empecé este mismo año y que disfruté en las pruebas de Ansó y Béjar-La Covatilla con el esquí de fondo.
 
 Eso sí, si corro alguna carrera popular de 5 o 10km, prometo que habrá crónica :-)
 
