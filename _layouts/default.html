@@ -7,7 +7,15 @@
     {{ content }}
   </div>
   {% include footer.html %}
-  {% include javascript.html %}
+  {% include javascript_core.html %}
+  {% if page.layout == 'post' %}
+  	<!-- Lightbox -->
+	<script src="{{ "/js/lightbox/lightbox.min.js " | prepend: site.baseurl }}"></script>
+  {% endif %}
+  {% if page.url == '/search/' %}
+  	<!-- Search -->
+	<script src="{{ "/js/search/search.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
   {% include google_analytics.html %}
 </body>
 </html>
