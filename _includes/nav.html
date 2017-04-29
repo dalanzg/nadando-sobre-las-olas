@@ -16,9 +16,9 @@
         <a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a>
       </li>
     </ul>
-    <form class="form-inline float-xs-right" action="{{ "/search" | prepend:site.baseurl }}" method="get" role="search">
-      <input class="form-control mr-sm-2" type="text" id="search-box" name="q" placeholder="Buscar...">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    <form class="form-inline float-xs-right" action="{{ "/search" | prepend:site.baseurl }}" method="get" data-search-form>
+      <input class="form-control mr-sm-2" type="text" name="q" placeholder="Buscar..." data-search-input>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </nav>
