@@ -20,13 +20,18 @@
   max-width: 465px;
 }
 
+.embed-responsive-16by9 {
+  @extend .mx-auto;
+  @extend .d-block;
+  width: 70%;
+}
+
 .embed-responsive-garmin-mono {
   padding-bottom: 107.53%;
 }
 
 .embed-responsive-garmin-triathlon {
   padding-bottom: 107.53%;
-  /* padding-bottom: 128.6022% !important; */
 }
 
 .strava {
