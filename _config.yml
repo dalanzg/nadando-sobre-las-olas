@@ -7,7 +7,7 @@
 
 # Site settings
 title: "Nadando sobre las olas"
-author: 
+author:
   name: Daniel Lanza
   twitter: dalanzg
   github: dalanzg
@@ -48,6 +48,6 @@ gems:
   - jekyll-feed
 
 # Handling Reading
-exclude: 
+exclude:
   - "README.md"
   - "LICENSE"
