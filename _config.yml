@@ -11,7 +11,7 @@ author:
   name: Daniel Lanza
   twitter: dalanzg
   github: dalanzg
-description: "Crónicas deportivas de Daniel Lanza, consultor OpenText de día y triatleta de noche."
+description: "Crónicas deportivas de Daniel Lanza"
 baseurl: "/nadando-sobre-las-olas" # the subpath of your site, e.g. /blog
 url: "https://dalanzg.github.io" # the base hostname & protocol for your site
 
