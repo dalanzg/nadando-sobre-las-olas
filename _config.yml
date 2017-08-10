@@ -42,7 +42,7 @@ sass:
   style: compressed # Possible values -> nested / expanded / compact / compressed
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
