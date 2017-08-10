@@ -2,11 +2,15 @@
   margin-bottom: 1.25rem;
 }
 
-.img-post {
-  @extend .rounded;
+.img-general {
   @extend .img-fluid;
   @extend .mx-auto;
   @extend .d-block;
+}
+
+.img-post {
+  @extend .img-general;
+  @extend .rounded;
 }
 
 .table-bordered-striped {

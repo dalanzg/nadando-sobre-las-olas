@@ -8,7 +8,7 @@ layout: default
   {% for post in paginator.posts %}
   <div class="card">
     {% if post.image.path %}
-    <img class="card-img-top img-fluid" src="{{ post.image.path | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+    <img class="img-general" src="{{ post.image.path | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
     {% endif %}
     <div class="card-block">
       {% if post.title %}
