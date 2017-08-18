@@ -8,9 +8,9 @@ layout: default
   {% for post in paginator.posts %}
   <div class="card">
     {% if post.image.path %}
-    <img class="img-general" src="{{ post.image.path | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+    <img class="card-img-top" src="{{ post.image.path | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
     {% endif %}
-    <div class="card-block">
+    <div class="card-body">
       {% if post.title %}
       <a href="{{ post.url | prepend: site.baseurl }}"><h4 class="card-title">{{ post.title }}</h4></a></p>
       {% endif %}
@@ -20,7 +20,7 @@ layout: default
       {% if post.url %}
       <p class="text-center"><a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Leer más</a></p>
       {% endif %}
-      <nav class="nav nav-inline">
+      <nav class="nav">
       {% if post.date %}
         <div class="nav-link"><i class="fa fa-calendar" aria-hidden="true"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
       {% endif %}

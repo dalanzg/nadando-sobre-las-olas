@@ -22,71 +22,64 @@ layout: default
   link=page.url
 %}
 
-<div class="card">
-  <h1 class="card-header">{{ page.title }}</h1>
-  <div class="card-block">
-    <nav class="nav">
-      {% if page.author %}
-      <div class="nav-link">
-        <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
-      </div>
-      {% endif %}
-      {% if page.date %}
-      <div class="nav-link">
-        <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
-          {{  page.date | date: '%-d' }} de
-          {% assign m = page.date | date: '%-m' %}
-          {% case m %}
-            {% when '1' %}enero
-            {% when '2' %}febrero
-            {% when '3' %}marzo
-            {% when '4' %}abril
-            {% when '5' %}mayo
-            {% when '6' %}junio
-            {% when '7' %}julio
-            {% when '8' %}agosto
-            {% when '9' %}septiembre
-            {% when '10' %}octubre
-            {% when '11' %}noviembre
-            {% when '12' %}diciembre
-          {% endcase %}
-          de {{  page.date | date: '%Y' }}
-        </small>
-      </div>
-      {% endif %}
-      {% if page.tags %}
-      <div class="nav-link">
-        <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small>
-      </div>
-      {% endif %}
-    </nav>
+<h1>{{ page.title }}</h1>
+<hr>
+<nav class="nav">
+  {% if page.author %}
+  <div class="nav-link">
+    <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
   </div>
-  <div class="card-block">
-    {{  content }}
+  {% endif %}
+  {% if page.date %}
+  <div class="nav-link">
+    <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
+      {{  page.date | date: '%-d' }} de
+      {% assign m = page.date | date: '%-m' %}
+      {% case m %}
+        {% when '1' %}enero
+        {% when '2' %}febrero
+        {% when '3' %}marzo
+        {% when '4' %}abril
+        {% when '5' %}mayo
+        {% when '6' %}junio
+        {% when '7' %}julio
+        {% when '8' %}agosto
+        {% when '9' %}septiembre
+        {% when '10' %}octubre
+        {% when '11' %}noviembre
+        {% when '12' %}diciembre
+      {% endcase %}
+      de {{  page.date | date: '%Y' }}
+    </small>
   </div>
-  <div class="card-block">
-    {% include disqus.html %}
+  {% endif %}
+  {% if page.tags %}
+  <div class="nav-link">
+    <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small>
   </div>
-  <div class="card-block">
-    <nav class="nav justify-content-center" aria-label="Page navigation">
-      <ul class="pagination">
-        {% if page.previous.url %}
-        <li class="page-item">
-          <a class="page-link" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous" rel="prev">
-            <span aria-hidden="true">&laquo; Post previo</span>
-            <span class="sr-only">&laquo; Post previo</span>
-          </a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="page-item">
-          <a class="page-link" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next" rel="next">
-            <span aria-hidden="true">Siguiente post &raquo;</span>
-            <span class="sr-only">Siguiente post &raquo;</span>
-          </a>
-        </li>
-        {% endif %}
-      </ul>
-    </nav>
-  </div>
+  {% endif %}
+</nav>
+{{  content }}
+<nav class="nav justify-content-center" aria-label="Page navigation">
+  <ul class="pagination">
+    {% if page.previous.url %}
+    <li class="page-item">
+      <a class="page-link" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous" rel="prev">
+        <span aria-hidden="true">&laquo; Post previo</span>
+        <span class="sr-only">&laquo; Post previo</span>
+      </a>
+    </li>
+    {% endif %}
+    {% if page.next.url %}
+    <li class="page-item">
+      <a class="page-link" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next" rel="next">
+        <span aria-hidden="true">Siguiente post &raquo;</span>
+        <span class="sr-only">Siguiente post &raquo;</span>
+      </a>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+<div>
+  {% include disqus.html %}
 </div>
