@@ -46,24 +46,24 @@ description: Posts ordenados por fecha.
 {% endcapture %}
 
 {% if forloop.first %}
-      <h2>{{ this_year }}</h2>
-      <h3 class="text-secondary">{{ this_month }}</h3>
-      <ul>
+      <h2><span class="badge badge-pill badge-danger">{{ this_year }}</span></h2>
+      <h3 class='pl-4'><span class="badge badge-pill badge-warning">{{ this_month }}</span></h3>
+      <div class='pl-4'><ul>
 {% endif %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {% if post.author %} • {{ post.author }}{% endif %}{% if post.date %} • {{ post.date | date: "%d/%m/%Y" }}{% endif %}</li>
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {% if post.date %}<span class="badge badge-pill badge-info">{{ post.date | date: "%d/%m/%Y" }}</span>{% endif %}</li>
 {% if forloop.last %}
-      </ul>
+      </ul></div>
 {% else %}
   {% if this_year != next_year %}
-      </ul>
-      <h2>{{ next_year }}</h2>
-      <h3 class="text-secondary">{{ next_month }}</h3>
-      <ul>
+      </ul></div>
+      <h2><span class="badge badge-pill badge-danger">{{ next_year }}</span></h2>
+      <h3 class='pl-4'><span class="badge badge-pill badge-warning">{{ next_month }}</span></h3>
+      <div class='pl-4'><ul>
   {% else %}
     {% if this_month != next_month %}
-      </ul>
-      <h3 class="text-secondary">{{ next_month }}</h3>
-      <ul>
+      </ul></div>
+      <h3 class='pl-4'><span class="badge badge-pill badge-warning">{{ next_month }}</span></h3>
+      <div class='pl-4'><ul>
     {% endif %}
   {% endif %}
 {% endif %}
