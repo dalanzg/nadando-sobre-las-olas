@@ -3,11 +3,11 @@
     <div class="col-xs-12 col-md-4">
       <nav class="nav justify-content-center">
         <a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">
-          <i class="fa fa-rss fa-3x"></i>
+          <i class="fas fa-rss fa-2x"></i>
         </a>
         {% for social_media in site.data.social_media %}
         <a class="nav-link" href="{{ social_media.url }}" target="_blank">
-          <i class="fa {{ social_media.font_awesome }} fa-3x"></i>
+          <i class="fab {{ social_media.font_awesome }} fa-2x"></i>
         </a>
         {% endfor %}
       </nav>

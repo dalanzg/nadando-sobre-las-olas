@@ -18,7 +18,7 @@ description: Posts ordenados por categorías.
   <p><a name="{{ tag | first | slugify }}"></a>&nbsp;</p>
   <h3 class="archivetitle">
     <span>
-      <i class="fa fa-tag" aria-hidden="true"></i>
+      <i class="fas fa-tag" aria-hidden="true"></i>
     </span>
     <span>
       {{ tag | first | replace:'-', ' ' }}
@@ -29,10 +29,7 @@ description: Posts ordenados por categorías.
   <ul>
     {% for post in sorted_posts %}
     {% if post.tags contains tag[0] %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="text-muted">{% if post.date %} <span class="badge badge-pill badge-info">{{ post.date | date: "%d/%m/%Y" }}</span>{% endif %}</span>
-    </li>
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> {% if post.date %} <span class="badge badge-pill badge-info">{{ post.date | date: "%d/%m/%Y" }}</span>{% endif %}</li>
     {% endif %}
     {% endfor %}
   </ul>
