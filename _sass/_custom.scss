@@ -14,3 +14,17 @@
   @extend .table-bordered;
   @extend .table-striped;
 }
+
+.garmin {
+  @extend .mx-auto;
+  @extend .d-block;
+  max-width: 465px;
+}
+
+.embed-responsive-garmin-mono {
+  padding-bottom: 107.53%;
+}
+
+.embed-responsive-garmin-triathlon {
+  padding-bottom: 107.53%;
+}
