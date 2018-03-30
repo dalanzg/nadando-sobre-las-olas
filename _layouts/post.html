@@ -27,12 +27,12 @@ layout: default
 <nav class="nav">
   {% if page.author %}
   <div class="nav-link">
-    <small class="text-muted"><i class="fa fa-user" aria-hidden="true"></i> {{ author.name }}</small>
+    <small class="text-muted"><i class="fas fa-user"></i> {{ author.name }}</small>
   </div>
   {% endif %}
   {% if page.date %}
   <div class="nav-link">
-    <small class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i>
+    <small class="text-muted"><i class="far fa-calendar-alt"></i>
       {{  page.date | date: '%-d' }} de
       {% assign m = page.date | date: '%-m' %}
       {% case m %}
@@ -55,7 +55,7 @@ layout: default
   {% endif %}
   {% if page.tags %}
   <div class="nav-link">
-    <small class="text-muted"><i class="fa fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small>
+    <small class="text-muted"><i class="fas fa-tags"></i> {{ page.tags | join: ', ' }}</small>
   </div>
   {% endif %}
 </nav>

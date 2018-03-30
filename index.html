@@ -22,10 +22,10 @@ layout: default
       {% endif %}
       <nav class="nav">
       {% if post.date %}
-        <div class="nav-link"><i class="fa fa-calendar" aria-hidden="true"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
+        <div class="nav-link"><i class="far fa-calendar-alt"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
       {% endif %}
       {% if post.tags %}
-        <div class="nav-link"><i class="fa fa-tags" aria-hidden="true"></i><small class="text-muted"> {{ post.tags | join: ', ' }}</small></div>
+        <div class="nav-link"><i class="fas fa-tags"></i><small class="text-muted"> {{ post.tags | join: ', ' }}</small></div>
       {% endif %}
       </nav>
     </div>
