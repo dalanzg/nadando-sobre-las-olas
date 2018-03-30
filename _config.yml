@@ -11,7 +11,7 @@ author:
   name: Daniel Lanza
   twitter: dalanzg
   github: dalanzg
-description: "Crónicas deportivas de Daniel Lanza"
+description: "Blog deportivo de Daniel Lanza. Crónicas deportivas de triatlón, atletismo, travesías..."
 baseurl: "/nadando-sobre-las-olas" # the subpath of your site, e.g. /blog
 url: "https://dalanzg.github.io" # the base hostname & protocol for your site
 
@@ -22,6 +22,9 @@ logo:
 
 analytics:
   google: UA-65400010-1
+
+adsense:
+  ad-client: ca-pub-8140733006923933
 
 # Search engines
 google_site_verification: CeO9J_0wi37-MvDa_F7AmZJYunwDhFGjv8eSlJFPil8

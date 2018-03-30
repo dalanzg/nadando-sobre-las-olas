@@ -24,42 +24,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <hr>
-<nav class="nav">
-  {% if page.author %}
-  <div class="nav-link">
-    <small class="text-muted"><i class="fas fa-user"></i> {{ author.name }}</small>
-  </div>
-  {% endif %}
-  {% if page.date %}
-  <div class="nav-link">
-    <small class="text-muted"><i class="far fa-calendar-alt"></i>
-      {{  page.date | date: '%-d' }} de
-      {% assign m = page.date | date: '%-m' %}
-      {% case m %}
-        {% when '1' %}enero
-        {% when '2' %}febrero
-        {% when '3' %}marzo
-        {% when '4' %}abril
-        {% when '5' %}mayo
-        {% when '6' %}junio
-        {% when '7' %}julio
-        {% when '8' %}agosto
-        {% when '9' %}septiembre
-        {% when '10' %}octubre
-        {% when '11' %}noviembre
-        {% when '12' %}diciembre
-      {% endcase %}
-      de {{  page.date | date: '%Y' }}
-    </small>
-  </div>
-  {% endif %}
-  {% if page.tags %}
-  <div class="nav-link">
-    <small class="text-muted"><i class="fas fa-tags"></i> {{ page.tags | join: ', ' }}</small>
-  </div>
-  {% endif %}
-</nav>
-{{  content }}
+<p class="lead">Publicado por {% if page.author %}{{ author.name }}{% else %}{{ site.title }}{% endif %} el {{ page.date | date: "%-d/%-m/%Y" }}</p>
+<p class="lead"><small class="text-muted"><i class="fas fa-tags" aria-hidden="true"></i> {{ page.tags | join: ', ' }}</small></p>
+{{ content }}
 <nav class="nav justify-content-center" aria-label="Page navigation">
   <ul class="pagination">
     {% if page.previous.url %}
