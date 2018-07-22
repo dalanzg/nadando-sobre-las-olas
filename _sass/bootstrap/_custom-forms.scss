@@ -334,7 +334,10 @@
     border: $custom-range-thumb-border;
     @include border-radius($custom-range-thumb-border-radius);
     @include box-shadow($custom-range-thumb-box-shadow);
+<<<<<<< HEAD
     @include transition($custom-forms-transition);
+=======
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
     appearance: none;
 
     &:focus {
@@ -365,7 +368,10 @@
     border: $custom-range-thumb-border;
     @include border-radius($custom-range-thumb-border-radius);
     @include box-shadow($custom-range-thumb-box-shadow);
+<<<<<<< HEAD
     @include transition($custom-forms-transition);
+=======
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
     appearance: none;
 
     &:focus {
@@ -396,7 +402,10 @@
     border: $custom-range-thumb-border;
     @include border-radius($custom-range-thumb-border-radius);
     @include box-shadow($custom-range-thumb-box-shadow);
+<<<<<<< HEAD
     @include transition($custom-forms-transition);
+=======
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
     appearance: none;
 
     &:focus {
@@ -431,9 +440,12 @@
     @include border-radius($custom-range-track-border-radius);
   }
 }
+<<<<<<< HEAD
 
 .custom-control-label::before,
 .custom-file-label,
 .custom-select {
   @include transition($custom-forms-transition);
 }
+=======
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f

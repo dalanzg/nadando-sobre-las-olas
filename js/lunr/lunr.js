@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
  * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.3.0
+=======
+ * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.2.0
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
  * Copyright (C) 2018 Oliver Nightingale
  * @license MIT
  */
@@ -54,7 +58,11 @@ var lunr = function (config) {
   return builder.build()
 }
 
+<<<<<<< HEAD
 lunr.version = "2.3.0"
+=======
+lunr.version = "2.2.0"
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
 /*!
  * lunr.utils
  * Copyright (C) 2018 Oliver Nightingale
@@ -884,7 +892,11 @@ lunr.Vector.prototype.dot = function (otherVector) {
  * @returns {Number}
  */
 lunr.Vector.prototype.similarity = function (otherVector) {
+<<<<<<< HEAD
   return this.dot(otherVector) / this.magnitude() || 0
+=======
+  return this.dot(otherVector) / (this.magnitude() * otherVector.magnitude()) || 0
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
 }
 
 /**
@@ -2059,6 +2071,7 @@ lunr.Index.prototype.query = function (fn) {
 
           /*
            * if the presence of this term is required ensure that the matching
+<<<<<<< HEAD
            * documents are added to the set of required matches for this clause.
            *
            */
@@ -2091,6 +2104,40 @@ lunr.Index.prototype.query = function (fn) {
           }
 
           /*
+=======
+           * documents are added to the set of required matches for this field,
+           * creating that set if it does not yet exist.
+           */
+          if (clause.presence == lunr.Query.presence.REQUIRED) {
+            if (requiredMatches[field] === undefined) {
+              requiredMatches[field] = lunr.Set.complete
+            }
+
+            requiredMatches[field] = requiredMatches[field].intersect(matchingDocumentsSet)
+          }
+
+          /*
+           * if the presence of this term is prohibited ensure that the matching
+           * documents are added to the set of prohibited matches for this field,
+           * creating that set if it does not yet exist.
+           */
+          if (clause.presence == lunr.Query.presence.PROHIBITED) {
+            if (prohibitedMatches[field] === undefined) {
+              prohibitedMatches[field] = lunr.Set.empty
+            }
+
+            prohibitedMatches[field] = prohibitedMatches[field].union(matchingDocumentsSet)
+
+            /*
+             * Prohibited matches should not be part of the query vector used for
+             * similarity scoring and no metadata should be extracted so we continue
+             * to the next field
+             */
+            continue
+          }
+
+          /*
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
            * The query field vector is populated using the termIndex found for
            * the term and a unit value with the appropriate boost applied.
            * Using upsert because there could already be an entry in the vector
@@ -2159,6 +2206,26 @@ lunr.Index.prototype.query = function (fn) {
 
     if (requiredMatches[field]) {
       allRequiredMatches = allRequiredMatches.intersect(requiredMatches[field])
+    }
+
+    if (prohibitedMatches[field]) {
+      allProhibitedMatches = allProhibitedMatches.union(prohibitedMatches[field])
+    }
+  }
+
+  /**
+   * Need to combine the field scoped required and prohibited
+   * matching documents into a global set of required and prohibited
+   * matches
+   */
+  var allRequiredMatches = lunr.Set.complete,
+      allProhibitedMatches = lunr.Set.empty
+
+  for (var i = 0; i < this.fields.length; i++) {
+    var field = this.fields[i]
+
+    if (requiredMatches[field]) {
+      allRequiredMatches = allRequiredMatches.union(requiredMatches[field])
     }
 
     if (prohibitedMatches[field]) {
@@ -2467,10 +2534,16 @@ lunr.Builder.prototype.add = function (doc, attributes) {
   this._documents[docRef] = attributes || {}
   this.documentCount += 1
 
+<<<<<<< HEAD
   for (var i = 0; i < fields.length; i++) {
     var fieldName = fields[i],
         extractor = this._fields[fieldName].extractor,
         field = extractor ? extractor(doc) : doc[fieldName],
+=======
+  for (var i = 0; i < this._fields.length; i++) {
+    var fieldName = this._fields[i],
+        field = doc[fieldName],
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
         tokens = this.tokenizer(field, {
           fields: [fieldName]
         }),
@@ -2956,7 +3029,11 @@ lunr.Query.prototype.isNegated = function () {
  */
 lunr.Query.prototype.term = function (term, options) {
   if (Array.isArray(term)) {
+<<<<<<< HEAD
     term.forEach(function (t) { this.term(t, lunr.utils.clone(options)) }, this)
+=======
+    term.forEach(function (t) { this.term(t, options) }, this)
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
     return this
   }
 

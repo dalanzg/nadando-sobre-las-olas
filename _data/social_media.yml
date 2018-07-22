@@ -7,7 +7,7 @@
 - name: Instagram
   url: https://www.instagram.com/dalanz/
   font_awesome: fa-instagram
-- name: strava
+- name: Strava
   url: https://www.strava.com/athletes/4315640/
   font_awesome: fa-strava
 - name: Flickr

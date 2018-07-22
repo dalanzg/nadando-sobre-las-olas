@@ -48,7 +48,11 @@ layout: default
     </li>
     {% if paginator.next_page %}
     <li class="page-item active">
+<<<<<<< HEAD
       <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next" rel="next">&raquo;</a>
+=======
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next" rel="prev">&raquo;</a>
+>>>>>>> 0d95d3d53bf69467e78dacd3a379e462d164248f
     </li>
     {% else %}
     <li class="page-item disable">
