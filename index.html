@@ -22,7 +22,7 @@ layout: default
       {% endif %}
       <nav class="nav">
       {% if post.date %}
-        <div class="nav-link"><i class="far fa-calendar-alt"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
+        <div class="nav-link"><i class="fas fa-calendar-alt"></i><small class="text-muted"> {{ post.date | date: "%d/%m/%Y" }}</small></div>
       {% endif %}
       {% if post.tags %}
         <div class="nav-link"><i class="fas fa-tags"></i><small class="text-muted"> {{ post.tags | join: ', ' }}</small></div>
@@ -48,7 +48,7 @@ layout: default
     </li>
     {% if paginator.next_page %}
     <li class="page-item active">
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next" rel="prev">&raquo;</a>
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next" rel="next">&raquo;</a>
     </li>
     {% else %}
     <li class="page-item disable">
