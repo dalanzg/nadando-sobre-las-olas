@@ -10,7 +10,7 @@
  */
 
  /* ==========================================================================
-    Initialisation
+    Initialization
     ========================================================================== */
 
 var q, jsonFeedUrl = "{{ site.baseurl }}/feed.json",
@@ -25,7 +25,6 @@ var q, jsonFeedUrl = "{{ site.baseurl }}/feed.json",
   showLoader = true,
   loadingClass = "is--loading",
   indexVar;
-
 
 $(document).ready( function() {
   // hide items found string
@@ -158,7 +157,6 @@ function processResultData(searchResults) {
         results += result;
   });
 
-
   if (showLoader) {
     toggleLoadingClass();
   }
@@ -193,7 +191,6 @@ function populateResultContent(html, item) {
   html = injectContent(html, item.url, '##url##');
   html = injectContent(html, item.content, '##content##');
   return html;
-
 }
 
 /**
