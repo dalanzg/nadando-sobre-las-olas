@@ -1,25 +1,15 @@
 <footer class="blog-footer">
-  <div class="row">
-    <div class="col-xs-12 col-md-6">
-      <nav class="nav justify-content-center">
-        <a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">
-          <i class="fas fa-rss-square fa-2x"></i>
-        </a>
-        {% for social_media in site.data.social_media %}
-        <a class="nav-link" href="{{ social_media.url }}" target="_blank">
-          <i class="fab {{ social_media.font_awesome }} fa-2x"></i>
-        </a>
-        {% endfor %}
-      </nav>
-      <p class="text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
-      <p class="text-muted"><small>Todos los derechos reservados. Blog contruido con <a href="https://jekyllrb.com/">Jekyll</a></small></p>
-      <p class="text-muted"><small><a href="https://opensource.org/licenses/MIT">MIT License</a></small></p>
-    </div>
-    <div class="col-xs-12 col-md-6">
-      <div>
-        <a class="twitter-timeline" href="https://twitter.com/dalanzg" data-widget-id="463016837706289152">Tweets por @dalanzg</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-    </div>
-  </div>
+  <nav class="nav justify-content-center">
+    <a class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">
+      <i class="fas fa-rss-square fa-2x"></i>
+    </a>
+    {% for social_media in site.data.social_media %}
+    <a class="nav-link" href="{{ social_media.url }}" target="_blank">
+      <i class="fab {{ social_media.font_awesome }} fa-2x"></i>
+    </a>
+    {% endfor %}
+  </nav>
+  <p class="text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
+  <p class="text-muted"><small>Todos los derechos reservados. Blog contruido con <a href="https://jekyllrb.com/">Jekyll</a></small></p>
+  <p class="text-muted"><small><a href="https://opensource.org/licenses/MIT">MIT License</a></small></p>
 </footer>
