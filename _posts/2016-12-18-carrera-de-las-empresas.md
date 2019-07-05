@@ -4,7 +4,7 @@ title: Carrera de las empresas 2016
 date: 2016-12-18 21:16:00+0100
 last_modified_at: 2016-12-25 15:33:00+0100
 author: dalanzg
-description: Test de 10km representando a Entelgy en la carrera de las empresas. Tiempo final de 37'51" en un circuito de sube y baja por la Castellana.
+description: Test de 10km representando a Entelgy en la carrera de las empresas. Tiempo final de 37:51 en un circuito de sube y baja por la Castellana.
 tags:
   - Atletismo
 image:
